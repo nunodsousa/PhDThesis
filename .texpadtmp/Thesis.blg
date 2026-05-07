@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Thesis.aux
+The style file: unsrt.bst
+A level-1 auxiliary file: chapter_1/Chapter1.aux
+A level-1 auxiliary file: chapter_2/Chapter2.aux
+A level-1 auxiliary file: part_1/part1.aux
+A level-1 auxiliary file: chapter_3/Chapter3.aux
+A level-1 auxiliary file: chapter_4/Chapter4.aux
+A level-1 auxiliary file: chapter_5/Chapter5.aux
+A level-1 auxiliary file: part_2/part2.aux
+A level-1 auxiliary file: chapter_6/Chapter6.aux
+A level-1 auxiliary file: chapter_7/Chapter7.aux
+A level-1 auxiliary file: chapter_8/Chapter8.aux
+A level-1 auxiliary file: chapter_9/Chapter9.aux
+A level-1 auxiliary file: appendices/Appendix1.aux
+A level-1 auxiliary file: appendices/Appendix2.aux
+A level-1 auxiliary file: appendices/Appendix3.aux
+A level-1 auxiliary file: appendices/Appendix4.aux
+A level-1 auxiliary file: appendices/Appendix5.aux
+A level-1 auxiliary file: appendices/Conclusiones_generales.aux
+A level-1 auxiliary file: appendices/List_of_publications.aux
+Reallocated field_info (elt_size=4) to 11578 items from 5000.
+Database file #1: ../References.bib
+Warning--can't use both volume and number fields in Drexhage_1966
+Warning--empty publisher in nieto2006scattering
+Warning--empty journal in comsolcite
+Name 3 in "Novikov, S.M. and S{\'a}nchez-Iglesias, A. and Schmidt, M.K, and Chuvilin, A. and Aizpurua, J. and Grzelczak, M. and Liz-Marz{\'a}n, L.M." has a comma at the end for entry novikov2014gold
+while executing---line 944 of file unsrt.bst
+Name 2 in "Klimov, V.V. and Ducloy, M, and Letokhov, V.S." has a comma at the end for entry klimov2001spontaneous
+while executing---line 944 of file unsrt.bst
+You've used 286 entries,
+            1791 wiz_defined-function locations,
+            1985 strings with 51306 characters,
+and the built_in function-call counts, 71199 in all, are:
+= -- 6096
+> -- 3741
+< -- 11
++ -- 1358
+- -- 1072
+* -- 6065
+:= -- 11674
+add.period$ -- 858
+call.type$ -- 286
+change.case$ -- 266
+chr.to.int$ -- 0
+cite$ -- 289
+duplicate$ -- 2606
+empty$ -- 6640
+format.name$ -- 1072
+if$ -- 15132
+int.to.chr$ -- 0
+int.to.str$ -- 286
+missing$ -- 306
+newline$ -- 1433
+num.names$ -- 286
+pop$ -- 412
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 925
+stack$ -- 0
+substring$ -- 5929
+swap$ -- 311
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 708
+width$ -- 289
+write$ -- 3133
+(There were 2 error messages)

@@ -1,0 +1,332 @@
+\chapter{Magnetically controlled optical nanoantennae\label{chap5}}
+
+\section{Introduction}
+
+%In Feynman's seminal talk about control and manipulation of matter at nanoscale\footnote{Richard Feynman, \textit{There's plenty of room at the bottom},  at the Annual Meeting of American Physical Society (1959):\\ "Consider, for example, a piece of material in which we make little coils and condensers (or their solid state analogs) 1,000 or 10,000 angstroms in a circuit, one right next to the other, over a large area, with little antennae sticking out at the other end-a whole series of circuits. Is it possible, for example, to emit light from a whole set of antennae, like we emit radio waves from an organised set of antennae to beam the radio programs to Europe? The same thing would be to beam the light out in a definite direction with very high intensity. (Perhaps such a beam is not very useful technically or economically."} \cite{Feynman_1960}, he suggested that, like matter, light could also be handled at small sizes. 60 years later, this prediction was only possible due to the extensive work in near-field optics \cite{Novotny_PNO_2012,Biagioni_2012}.\\
+Over the last two decades there has been a boost in nanoantenna research, mainly due to the possibility of create structures at nanoscale. Improvements in fabrication techniques, like electron-beam lithography \cite{ghenuche2008spectroscopic,Schuck_2005,Muskens_2007}, focused ion-beam milling \cite{muhlschlegel2005resonant,Farahani_2005,Kim_2008}, nano-imprinting lithography \cite{Boltasseva_2009} or positioning of nanoantennae on tips \cite{Anger_2006}, etc., made possible the use of nanoantennae in near-field optical spectroscopy \cite{Nie_1997,Hartschuh_2003}, single-photon superemitters \cite{Kim_1999,Michler_2000, Lounis_2000}, optical tweezing \cite{Zhang_2010, Grigorenko_2008}, or microscopy \cite{Betzig_1993, Frey_2004}, among others.\\
+At nanoscale, light can be controlled and manipulated using electromagnetic sources like fluorescent molecules, quantum dots, etc., usually coupled to an external structure that operates as an antenna. These nanoantennae, from the viewpoint of its operation, are similar to telecommunication antennae \cite{Pohl_2000}. 
+%Its function consists in the presence of free charge carriers confined in well-defined regions of space. When applied an oscillating potential, the charges start to move, generating an electromagnetic field \cite{Jackson_CE}. 
+In order to obtain optical wavelengths is necessary to reduce the antenna dimensions \cite{Kawata_2011}.\\
+%A fundamental electromagnetic source is an oscillating dipole, initially proposed by Hertz \citep{Bryant_1988} as two opposite charged spheres connected by a metallic wire. When left alone, the system tends to the equilibrium, generating an exponentially damped harmonic oscillator at frequency $\omega_{0}=1/\sqrt{LC}$, for a small damping, with $L$ the inductance and $C$ the capacitance of the system. The exponential damping has its origins in the Ohmic resistance felt by the charge carriers in the metal wire and the loss energy due to radiation of electromagnetic waves. 
+%In order to obtain radiation at optical frequencies, is necessary to reduce $L$ and $C$, or from the practical point of view, is necessary to reduce the antenna dimensions \cite{Kawata_2011}.\\
+%Metallic nanoantennae, at optical frequencies, cannot be considered as perfect conductors. With the frequency increasing, electrons react with an amplitude increasing and phase lag to the oscillating electromagnetic field, due to the effective mass of the electrons. When the phase lag approaches $90^{\circ}$, the amplitude reaches a maximum that is only constrained by the damping. This plasmon resonance is function of the intrinsic properties of the nanoantenna like material properties (only occurs in metallic particles), geometric shape and size.\\
+Many different types of nanoantennae have been proposed and experimentally investigated \cite{pelton2008metal, novikov2014gold}. Studies with single nanospheres \cite{Wang_2006, chen2011plasmonic} and nanorods \cite{Bryant_2008} show the possibility of tuning the resonance frequency considering the size and aspect ratio of the particles. Dimers of nanospheres \cite{Rechberger_2003} and nanorods \cite{Muskens_2007} can be used to enhance the near-field intensity at some space positions. Bow-tie dimer nanoantennae are being applied to enhance molecular fluorescence \cite{Farahani_2005,Kinkhabwala_2009}, Raman scattering \cite{Fromm_2006} and for high-harmonic generation \cite{Kim_2008}. With the aim of redirect the field like in telecommunication antennae, Yagi-Uda antennae \cite{taminiau2008enhanced, Kosako_2010} have been proposed and implemented, as well as anisotropic emitter-antenna coupling systems \cite{Taminiau_2008}. \\
+One subject that has attracted attention recently has been the control of nanoantennae via an external parameter, as in the previous chapters.
+%In this chapter we propose an optical nanoantenna where its response is modulated by an external parameter \cite{Krasavin_2004}.
+A possibility is to consider the use of a static magnetic field \cite{armelles2013magnetoplasmonics}. \\
+%It has been already mentioned that magneto-optics have received attention recently due to the possible applications, such as nonreciprocal optical isolators \cite{van2006transverse, dotsch2005applications, espinola2004magneto}, sensors \cite{sepulveda2006highly}, plasmonic interferometry \cite{martin2010enhancement, martin2013plasmonic}, random-lasers \cite{pinheiro2008statistics}, etc.\\
+Also in Sec. (\ref{chap2:Dipole_radiation}) we presented the Purcell effect \cite{Purcell_1946}, where the modification of the lifetime of an emitter by shaping the electromagnetic environment is reported. 
+%A special look should be given to the work of Marinchio \textit{et al.} \cite{marinchio2012light}, where was studied the interaction of a magneto-optical nanoparticle in the presence of a flat surface. In this work was shown that the magneto-optical contribution in the dressed polarisability could be enhanced. 
+
+In this chapter we study the properties of an emitter in two different situations: in the presence of a single magnetoplasmonic (MP) nanoparticle, Sec. (\ref{sec:chap5_singlepart}), and inside of a cavity formed by two MP nanoparticles, Sec. (\ref{sec:chap5_cavity}).\\
+We consider a simple model where particles are described as dipoles, and consequently characterised by its polarisabilities, in which the interaction between the elements is governed by the dipole-dipole coupling. This choice is motivated by the possibility of obtain simple analytical expressions that could capture the physics of the problem.\\
+We analyse the dependence of the emitter decay rate and the radiated field patterns by the system \textit{emitter and nanoparticle(s)} as a function of the distance between the emitter and the nanoparticles, with and without presence of the applied magnetic field. Also we study the influence of the absorption in such systems.
+In Sec.( \ref{sec:chap5_conclusions}) the general conclusions are presented.
+ 
+%{\color{red}{In the first case we show that the decay rate of an emitter varies quadratically with the out of diagonal dielectric elements, although the field patterns depends linearly with the same elements. This imply a small modification of the radiated power by the emitter but a significant modification of the radiated field pattern.
+%In the second case we study the modification of the emission pattern considering the coupling between particles. Like in the previous situation, we also explore the modifications of the decay rate dependence as well as the field patterns.}}
+
+
+\section{Emitter in the presence of a single magneto-plasmonic nanoparticle\label{sec:chap5_singlepart}}
+
+Let us consider a classical point dipole emitter in vacuum placed at $\mathbf{r}_{0}$, radiating with a frequency $\omega = ck$.\\
+The electric field generated by a point dipole at any position $\mathbf{r}'$ is obtained by operating the Green tensor (see Eq. (\ref{Green_tensor})) over the emitter $\boldsymbol{\mu}$, oriented at direction $\boldsymbol{\mu}=\left(\mu_{x},\mu_{y},\mu_{z}\right)$ and located at $\mathbf{r}$. This can be mathematically expressed as:
+
+\begin{equation}
+\mathbf{E}\left(\mathbf{r}'\right) = \frac{k^2}{\epsilon_{0}}\mathbf{G}\left(\mathbf{r}',\mathbf{r}\right)\cdot\boldsymbol{\mu},
+\end{equation}
+being $\epsilon_{0}$ the permittivity of vacuum.\\
+The emitter is placed close to a spherical nanoparticle with radius $a$ at position $\mathbf{r}_{p}$, being the particle small enough to assume that the electromagnetic field inside is homogeneous and the particle can be considered as a single dipole. The distance that separates the emitter and the nanoparticle is given by $R = \left|\mathbf{r}_{0}-\mathbf{r}_{p}\right|$. For simplicity, we choose a reference system where the emitter is placed at the origin and the particle is along the $z$ axis. The Green tensor, in this configuration can be written as:
+
+\begin{equation}
+{
+\mathbf{G}\left(\mathbf{r}_p,\mathbf{r}_0\right)=\mathbf{G}\left(\mathbf{r}_0,\mathbf{r}_p\right) = \left[\begin{array}{ccc}
+G_{xx} & 0 & 0\\
+0 & G_{yy} & 0\\
+0 & 0 & G_{zz}
+\end{array}\right],
+}
+\end{equation}
+with:
+
+\begin{eqnarray*}
+G_{xx}=G_{yy} & = & \frac{e^{ikR}}{4\pi R}\left(\frac{k^{2}R^{2}+ikR-1}{k^{2}R^{2}}\right),\\
+G_{zz} & = & \frac{e^{ikR}}{4\pi R}\left(\frac{2-2ikR}{k^{2}R^{2}}\right).
+\end{eqnarray*}
+Because the particle is magnetoplasmonic, the material is characterised by a dielectric tensor as in the previous chapters. 
+When the static magnetic field is applied along the $z$ axis, like schematically represented in Fig. (\ref{fig:emitter_particle}), the dielectric tensor of the MP nanoparticle is defined by:
+
+\begin{equation}
+\boldsymbol{\epsilon}\left(\omega\right)=\left[\begin{array}{ccc}
+\epsilon & \epsilon_{xy} & 0\\
+-\epsilon_{xy} & \epsilon & 0\\
+0 & 0 & \epsilon
+\end{array}\right],\label{eq:dielectric_tensor}
+\end{equation}
+where all elements are dispersive and the elements off-diagonal are anti-symmetric.\\
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=8cm]{Chapter_5/scheme/single_particle_emitter_II.png} 
+\par\end{centering}
+\caption{Schematic representation of a MP nanoparticle (purple) characterised by the dielectric tensor $\boldsymbol{\epsilon}$, a dipole emitter $\boldsymbol{\mu}$ (green) oriented the $x$ direction and an applied magnetic field $\mathbf{B}$ in the $z$ direction. The particle and the emitter are separated by a distance of $d$.\label{fig:emitter_particle}}
+\end{figure}
+
+Once the dielectric tensor is known, we evaluate the static polarisability taking into account the properties of the particles, such as the shape (that in this case is spherical), material properties and dimensions. In this case, $\boldsymbol{\alpha}_{0}$ reads:
+
+\begin{eqnarray}
+\boldsymbol{\alpha}_{0}\left(\omega\right) & = & 3 \nu\left[\boldsymbol{\epsilon}\left(\omega\right)-\mathbb{I}\right]\left[\boldsymbol{\epsilon}\left(\omega\right)+2\mathbb{I}\right]^{-1}\\
+ & = & \frac{3\nu}{D}\left[\begin{array}{ccc}
+\left(\epsilon+2\right)\left(\epsilon-1\right)+\epsilon_{xy}^2 & 3\epsilon_{xy} & 0\\
+-3\epsilon_{xy} & \left(\epsilon+2\right)\left(\epsilon-1\right)+\epsilon_{xy}^2 & 0\\
+0 & 0 & D\frac{\epsilon-1}{\epsilon+2} \nonumber \label{eq:polarisability}
+\end{array}\right],
+\end{eqnarray}
+
+being $D=\left(\epsilon+2\right)^2+\epsilon_{xy}^{2}$ and $\nu=\frac{4}{3}\pi a^3$ is the particle volume.\\
+In order to conserve the energy, to the static polarisability is applied the radiative correction. The procedure used here is equivalent to the one presented in the chapter (\ref{chap3}), in particular, we use Eq. (\ref{eq:chap3_radiative_correction}) for the radiative correction.\\
+The quasi-static polarisability, $\boldsymbol{\alpha}_{0}$, and the polarisability, $\boldsymbol{\alpha}$, preserve the shape of the dielectric tensor, {\it{i.e.}}, the elements off-diagonal are anti-symmetric and the elements in the diagonal are equal.\\
+%
+%The experienced electric field by the particle is only function of the emitter and it is given by:
+%\begin{equation}
+%{\mathbf{E}\left(\mathbf{r}_p\right)=\frac{k^{2}}{\varepsilon_{0}}\mathbf{G}_{0}\left(\mathbf{r}_p,\mathbf{r}_0\right)\boldsymbol{\mu}.}\label{eq:electric_field}
+%\end{equation}
+%notar que apaguei o label da equação
+The field generated by the emitter at particle position is ${\mathbf{E}\left(\mathbf{r}_p\right)=\frac{k^{2}}{\epsilon_{0}}\mathbf{G}\left(\mathbf{r}_p,\mathbf{r}_0\right)\boldsymbol{\mu}}$. In turn, part of the scattered field by the particle goes back to the emitter. At the emitter position, this scattered electric field is:
+
+\begin{eqnarray}
+\mathbf{E}_{s}\left(\mathbf{r}_0\right) & = & \frac{k^{2}}{\epsilon_{0}}\mathbf{G}\left(\mathbf{r}_{0},\mathbf{r}_{p}\right)\mathbf{p} \nonumber \\
+ & = & \frac{k^{4}}{\epsilon_{0}}\mathbf{G}\left(\mathbf{r}_{0},\mathbf{r}_{p}\right)\boldsymbol{\alpha}\mathbf{G}\left(\mathbf{r}_p,\mathbf{r}_0\right)\boldsymbol{\mu}.\label{eq:chap3_E_scatt}
+\end{eqnarray}
+where $\mathbf{p}$ is the polarisation of the particle defined by $\mathbf{p} = \epsilon_{0} \boldsymbol{\alpha} \mathbf{E}\left(\mathbf{r}_{p}\right)$. 
+Once the electric field is known at emitter position, the normalised decay rate can be evaluated (see Eq. (\ref{eq:norm_decay_rate})). For the dipole $\boldsymbol{\mu}$:
+
+\begin{equation}
+\frac{\Gamma}{\Gamma_{0}}=1+\frac{6\pi\epsilon_{0}}{\left|\boldsymbol{\mu}\right|^{2}k^{3}}\Im\left\{\boldsymbol{\mu}^*\cdot\mathbf{E}_{s}\left(\mathbf{r}_0\right)\right\},\label{eq:decay_rate_chap3}
+\end{equation}
+where $\Gamma_{0}$ is the decay rate of an emitter in free space.\\
+Substituting Eq. (\ref{eq:chap3_E_scatt}) into Eq. (\ref{eq:decay_rate_chap3}), the normalised decay rate is expanded into components:
+
+\begin{equation}
+\begin{split}\frac{\Gamma}{\Gamma_{0}}= & 1+\frac{6\pi k}{\left|\boldsymbol{\mu}\right|^2} \Im\left\{G_{xx}^{2}\hat{\mu}_{x}^{*}\left(\alpha_{xx}\hat{\mu}_{x}+\alpha_{xy}\hat{\mu}_{y}+\alpha_{xz}\hat{\mu}_{z}\right)+\right.\\
+& \left.+G_{xx}^{2}\hat{\mu}_{y}^{*}\left(\alpha_{yx}\hat{\mu}_{x}+\alpha_{yy}\hat{\mu}_{y}+\alpha_{yz}\hat{\mu}_{z}\right)+\right.\\
+&\left. +G_{zz}^{2}\hat{\mu}_{z}^{*}\left(\alpha_{zx}\hat{\mu}_{x}+\alpha_{zy}\hat{\mu}_{y}+\alpha_{zz}\hat{\mu}_{z}\right)\right\}.\\
+\end{split}
+\end{equation}
+For any in-plane emitter orientation ($\mu_{z} = 0$), the normalised decay rate depends only on the diagonal elements of the polarisation tensor due to the anti-symmetric nature of the polarisability tensor $\boldsymbol{\alpha}$. \\
+Let us consider a dipole oriented at $\boldsymbol{\mu}=\left(\mu_x,\mu_y,0\right)$, where all $\mu_i$ are real numbers. The normalised decay rate of the emitter is given by:
+
+\begin{equation}
+\frac{\Gamma}{\Gamma_{0}}= 1 + \frac{6\pi k}{\left| \boldsymbol{\mu} \right|^2 } \Im\left\{G_{xx}^{2}\left(\mu_{x}^2\alpha_{xx}+\mu_{x} \mu_{y}\alpha_{xy}\right)+G_{xx}^{2}\left(\mu_{x} \mu_{y}\alpha_{yx}+\mu_{y}^2\alpha_{yy}\right)\right\}. \label{eq:simple_decay}
+\end{equation}
+Due to the anti-symmetric off-diagonal elements of $\boldsymbol{\alpha}$, and $\alpha_{xx} = \alpha_{yy}$, the Eq. (\ref{eq:simple_decay}) can be written as:
+
+\begin{equation}
+\frac{\Gamma}{\Gamma_{0}}= 1 + \frac{6\pi k}{\left|\boldsymbol{\mu}\right|^2} \Im\left\{\left(\mu_{x}^2 +\mu_{y}^2\right)G_{xx}^{2} \alpha_{xx}\right\}. \label{eq:simple_decay_rewriten}
+\end{equation}
+Because $\alpha_{xx}$ depends quadratically with $\epsilon_{xy}$ and the particle polarisation $\mathbf{p}$ depends linear with $\epsilon_{xy}$, and assuming that $\epsilon_{xy}$ is a small number, the modification in the radiated field patterns should be significantly bigger compared with the modification in the normalised decay rate.
+
+%The normalised decay rate expression is obtained when the emitter is treated like a classical harmonic damping dipole oscillating at frequency $\omega$, as shown in chapter (\ref{chap:2}). Considering this approach, the normalised decay rate is equivalent to the normalised power emitted by the classical dipole, $\Gamma/\Gamma_{0} = P/P_{0}$, being 
+The normalised decay rate expression obtained in quantum optics is exactly the same as the one obtained for the normalised power emitted by a point classical dipole $\Gamma/\Gamma_{0} = P/P_{0}$, being $P$ the power emitted in the presence of the environment and $P_{0}$ is the power emitted by the same dipole in free-space.\\
+If in the system absorbing elements are present, this classical approach allows to calculate separately the radiative decay rate $\Gamma^{\textnormal{R}}$ (proportional to the far-field radiated power, $P_{\textnormal{ff}}$) and the non-radiative decay rate $\Gamma^{\textnormal{NR}}$ (proportional to the absorbed power by the environment, $P_{\textnormal{abs}}$) \cite{bian1995single,klimov2001spontaneous}. Due to the energy conservation, $\Gamma = \Gamma^{\textnormal{R}} + \Gamma^{\textnormal{NR}}$ must be obeyed. The radiative decay rate and the non-radiative decay rate can be normalised by the decay rate of the dipole emitter in free space, obtaining:
+
+\begin{equation}
+\frac{\Gamma}{\Gamma_{0}} = \frac{\Gamma^{\textnormal{R}}}{\Gamma_{0}} + \frac{\Gamma^{\textnormal{NR}}}{\Gamma_{0}}.\label{eq:decay_sum}
+\end{equation}
+To get a wider view, the problem is evaluated numerically using geometric and electromagnetic parameters accessible experimentally.\\
+Let us start by considering a non-absorbing particle of radius  $5nm$, with a dielectric tensor given by $\epsilon = -3$ and $\epsilon_{xy} = 0.1i$. The dipole emitter is oriented in the $x$ direction, $\boldsymbol{\mu} = \left(\mu_{x},0,0\right)$, and radiates at wavelength $\lambda = 500nm$.\\
+Due to the absence of absorption in the system and consequently the nonexistence of non-radiative decay channels, the normalised decay rate is equal to the normalised radiative decay rate $\Gamma/\Gamma_{0} = \Gamma^{\textnormal{R}}/\Gamma_{0}$.\\
+We study the normalised decay rate, $\Gamma/\Gamma_{0}$, as a function of the distance between the particle and the emitter, where the distance is calculated from the center of the particle, schematically represented in Fig. (\ref{fig:emitter_particle}). The system is evaluated in the presence and absence of an external magnetic field, with the results shown in Fig. (\ref{fig:NDR_1part_woutabs})(a). 
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=8cm, angle=-90]{Chapter_5/plots/1_part_without_absorp/norm_decay_rate_vs_dist_noabs.eps} 
+\par\end{centering}
+\caption{(a) Normalised decay rate of the emitter as a function of the distance between the emitter and a non-absorbing particle. The red line represents the system in the absence of the magnetic field, and the blue circles the system in the presence of the magnetic field.\\
+(b) Decay rate ratio of the emitter between the system in the presence and absence of the applied magnetic field.\label{fig:NDR_1part_woutabs}}
+\end{figure}
+
+Both cases exhibit a similar normalised decay rate. However, we observe that for a distance of $d\approx 8nm$ there is a minimum in the normalised decay rate very close to $0$, corresponding to a inhibition region. At this distance, any difference between the presence and absence of the magnetic field can be hidden by the plot scale. For this reason, we plot in Fig. (\ref{fig:NDR_1part_woutabs})(b) the ratio of the normalised decay rate between the system in the presence and in the absence of the magnetic field, $\Gamma^{\textnormal{MO}}/\Gamma^{\textnormal{NoMO}}$.   Although the global behaviour of the decay rate is similar, at minimum, $d \approx 8nm$, the ratio between both setups is a factor of $2.5$, meaning that the emitter in the presence of the magnetic field has a decay rate $2.5$ bigger than in the absence of the magnetic field.
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=11.5cm]{Chapter_5/plots/1_part_without_absorp/all_3d_without_absorp.png} 
+\par\end{centering}
+\caption{Electric far field patterns of the system formed by an emitter and a non-absorbing MP nanoparticle in the presence, (a) and (c), and absence, (b) and (d), of an external applied magnetic field. We show the electric far field patterns for two different distances between the particle and the emitter, at minimum, $d = 8nm$, and out of the minimum, $d = 10nm$, of the normalised decay rate.\label{fig:field_patterns_1part_woutabs}}
+\end{figure}
+
+To see the modifications caused by the presence of the magnetic field,
+%With the aim of study the magnetic field influence over MP nanoparticles, 
+we analyse the electric far field radiated patterns of the system for different distances between the particle and the emitter. For simplicity, we present two different distances: at minimum, $d = 8nm$, and out of the minimum, $d = 10nm$, for the normalised decay rate. All field patterns are normalised by their corresponding radiation power, with the aim of visualising modifications in the field profile and not on the intensity.\\
+In the case where the particle is at $d = 10 nm$, the field patterns are indistinguishable from one another, when the system is in the presence or absence of the external applied magnetic field, Fig. (\ref{fig:field_patterns_1part_woutabs})(a)-(b).\\
+In the case where the particle is at $d = 8nm$, at the minimum of the decay rate, the field patterns are different as can be see in Fig. (\ref{fig:field_patterns_1part_woutabs})(c)-(d). In the absence of the magnetic field the system do not radiate in the $x-y$ plane and exhibit two symmetric lobes over the $z$ axis. When applied the magnetic field, the system radiates in the $x-y$ plane and the lobes over the $z$ directions are twisted. Also we observe a redistribution of the intensity in all directions. \\
+Therefore, the modifications in the radiated patterns are noticeable when the distance is around the minimum of the radiative decay rate.
+
+%As a preliminary conclusion, for the simple configuration involving an emitter and a MP particle, the modification of the emission propert5ies is a con
+
+Although a non-absorbing system offers a base to the problem comprehension, absorption plays a relevant, if not crucial, role in the global behaviour of the systems. This means that it is necessary to consider a system like the one described above, but with a dielectric tensor formed by $\epsilon = -3 + 0.1i$ and $\epsilon_{xy} = 0.1i$, introducing this way absorption. With this modification, the non-radiative decay rate $\Gamma^{\textnormal{NR}}/\Gamma_{0}$ is no longer $0$ and Eq. (\ref{eq:decay_sum}) must be completely considered.
+
+Like before, we study the normalized decay rate as a function of the distance and in the presence and absence of the magnetic field. Results are presented in Fig. (\ref{fig:NDR_1part_wabs}). Comparing both situations, the normalised decay rate is indistinguishable, from one another. Being an absorbing system, part or the total of radiated energy by the emitter can be dissipated by the nanoparticle through non-radiative channels, resulting in a effective loss of electric field intensity at far field.
+
+%We study the normalised decay rate of the emitter at different distances between the particle and the emitter in two different setups: in the presence and absence of the magnetic field. Results are present in Fig. (\ref{fig:NDR_1part_wabs}). Comparing both situations, the normalised decay rate is indistinguishable, from one case to the other. Being an absorbing system, part or the total of radiated energy by the emitter can be thermally dissipated by the nanoparticle through non-radiative channels, resulting in a effective loss of electric field intensity at far field.
+%If the particle absorbs the biggest part or the totality of the energy we say that the system is quenched. 
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=8cm, angle=-90]{Chapter_5/plots/1_part_with_absorp/norm_decay_rate_vs_distance.eps} 
+\par\end{centering}
+\caption{Normalised decay rate of the emitter as a function of the distance between the emitter and an absorbing particle. The red line represents the system in the absence of the magnetic field, and the blue circles the system in the presence of the magnetic field. \label{fig:NDR_1part_wabs}}
+\end{figure}
+
+In order o identify the different contributions, we analyse the normalised radiative decay rate, $\Gamma^{R}/\Gamma_{0}$, represented in Fig. (\ref{fig:NRDR_1part_wabs})(a). Like the previous case, the system is almost identical, with a minimum for a distance of $d \approx 8nm$. We present in Fig. (\ref{fig:NRDR_1part_wabs})(b) the ratio of the normalized radiative decay rates, $\Gamma^{\textnormal{R}_{\textnormal{MO}}}/\Gamma^{\textnormal{R}_{\textnormal{NoMO}}}$. Although the global behaviour of the decay rate is similar, at minimum ($d \approx 8nm$), the ratio between both is $1.6$, meaning that the emitter in the presence of the magnetic field has a decay rate $1.6$ bigger than in the absence of the magnetic field.\\
+%In order o identify the different contributions, we analyse the radiative decay rate as a function of the distance between the particle and the emitter, represented in Fig. (\ref{fig:NRDR_1part_wabs}(a) in both situations. The system exhibits an almost identical normalised radiative decay rate in the presence or absence of the magnetic field. Like in the previous case where there is no absorption, for a distance of $d \approx 8nm$ there is a minimum very close to $\Gamma/\Gamma_{0} \approx 0$. In Fig. (\ref{fig:NRDR_1part_wabs})(b) we present the ratio of the normalised radiative decay rate between the system in the presence and absence of the magnetic field,  $\Gamma^{\textnormal{MO}}/\Gamma^{\textnormal{NoMO}}$.  Although the global behaviour of the decay rate is similar, at minimum ($d \approx 8nm$), the ratio between both setups is $1.6$, meaning that the emitter in the presence of the magnetic field has a decay rate $1.6$ bigger than the setups in the absence of the magnetic field.
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=8cm, angle=-90]{Chapter_5/plots/1_part_with_absorp/norm_radiated_decay_rate_vs_distance.eps} 
+\par\end{centering}
+\caption{(a) normalised radiative decay rate of the emitter as a function of the distance between the emitter and an absorbing the particle. The red line represents the system in absence of the magnetic field, and the blue circles the system in presence of the magnetic field.\\
+(b) Radiative decay rate ratio of the emitter between the system in presence and absence of the applied magnetic field.
+ \label{fig:NRDR_1part_wabs}}
+\end{figure} 
+Also in this case we present the electric far field patterns for two distances: at minimum, $d = 8nm$, and out of the minimum, $d = 10nm$ of the radiative decay rate. All field patterns are normalised by their corresponding radiation power of the system.\\
+In the case where the particle is at $d = 10nm$, the field patterns are very similar, independently of the presence of the magnetic field, as can be seen in Fig. (\ref{fig:field_patterns_1part_wabs})(a)-(b).\\
+In the case where the particle is at $d = 8 nm$, the field patterns are different, as can be seen in Fig. (\ref{fig:field_patterns_1part_wabs})(c)-(d). In the absence of the magnetic field the system radiates directionally, with the majority of the radiation being channeled to $-z$ direction. When applied the magnetic field, the system rotates over the $x-y$ plane, with a redistribution of the electric field pattern, but maintaining the directionality in the $-z$ direction.
+
+From this section we conclude that when a MP nanoparticle is closed to an emitter, the presence of a static magnetic field modify the behaviour of the emitter. 
+This modification is stronger when the distance between the particle and the emitter originates a minimum in the radiative decay rate.
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=11.5cm]{Chapter_5/plots/1_part_with_absorp/all_3d_with_absorp.png} 
+\par\end{centering}
+\caption{Electric far field patterns of the system formed by an emitter and an absorbing MP nanoparticle in the presence, (a) and (c), and absence, (b) and (d), of an external applied magnetic field. We show the radiated far field patterns for two different distances between the particle and the emitter, at minimum, $d = 8 nm$, and out of the minimum, $d = 10 nm$.\label{fig:field_patterns_1part_wabs}}
+\end{figure}
+
+\section{Emitter inside of a two magneto-plasmonic nanoparticles cavity\label{sec:chap5_cavity}}
+
+In this section we study the electromagnetic behaviour of an emitter embedded in a MP cavity formed by two nanoparticles.
+Let us assume a configuration where the emitter is placed between the two MP nanoparticles, positioned at $\boldsymbol{r}_{1}$ and $\boldsymbol{r}_{2}$, at equal distance of one from the other $R = R_{1} = R_{2} = \left|\boldsymbol{r}_{0}-\boldsymbol{r}_{1}\right| = \left|\boldsymbol{r}_{0}-\boldsymbol{r}_{2}\right|$, like presented in Fig. (\ref{fig:dual_emitter_particle}).
+The particles are identical regarding their electromagnetic behaviour, {\it{i.e.}}, have the same dimensions, shape, material and consequently, the same polarisability.
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=7cm]{Chapter_5/scheme/dual_particle_emitter_II.png} 
+\par\end{centering}
+\caption{Schematic representation of two MP nanoparticles (purple) characterised by the same dielectric tensor $\boldsymbol{\epsilon}$ (blue and red), a dipole emitter $\boldsymbol{\mu}$ (green) oriented the $x$ direction and an applied magnetic field $\mathbf{B}$ in the $z$ direction. The particles and the emitter are separated by a distance of $d$.\label{fig:dual_emitter_particle}}
+\end{figure}
+
+In this configuration we choose a reference axes where the emitter is placed at the origin and the particles are over the $z$ axis.\\
+Due to the symmetry of the problem, the Green tensor that propagates the electric field from the emitter to the nanoparticles and the nanoparticles to the emitter can be written as:
+
+\begin{eqnarray}
+\mathbf{G}\left(\mathbf{r}_1,\mathbf{r}_0\right) & = & \mathbf{G}\left(\mathbf{r}_0,\mathbf{r}_1\right)=\mathbf{G}\left(\mathbf{r}_2,\mathbf{r}_0\right) = \mathbf{G}\left(\mathbf{r}_0,\mathbf{r}_2\right) \nonumber \\ 
+ & = & \left[\begin{array}{ccc}
+G_{xx} & 0 & 0\\
+0 & G_{yy} & 0\\
+0 & 0 & G_{zz}\end{array}\right],\label{eq:chap3_propagator}
+\end{eqnarray}
+with:
+
+\begin{eqnarray}
+G_{xx}=G_{yy} & = & \frac{e^{ikR}}{4\pi R}\left(\frac{k^{2}R^{2}+ikR-1}{k^{2}R^{2}}\right), \nonumber \\
+G_{zz} & = & \frac{e^{ikR}}{4\pi R}\left(\frac{2-2ikR}{k^{2}R^{2}}\right). \label{eq:chap3_elem_of_prop}
+\end{eqnarray}
+For the nanoparticles interaction, the propagator $\mathbf{G}\left(\mathbf{r}_1,\mathbf{r}_2\right) = \mathbf{G}\left(\mathbf{r}_2,\mathbf{r}_1\right)$ is similar to the one described in Eq. (\ref{eq:chap3_propagator}) and (\ref{eq:chap3_elem_of_prop}), but the distance now assumes the value of $R = \left|\mathbf{r}_{2}-\mathbf{r}_{1}\right|$.
+
+
+Thus, the total electric field at some position $\mathbf{r}'$ is given by:
+
+\begin{equation}
+\mathbf{E}\left(\boldsymbol{r}'\right) = \frac{k^2}{\epsilon_{0}}\left\{\boldsymbol{G}\left(\mathbf{r}',\mathbf{r}_{0}\right)\boldsymbol{\mu} + \mathbf{G}\left(\mathbf{r}',\mathbf{r}_{1}\right)\mathbf{p}_{1} + \mathbf{G}\left(\mathbf{r}',\mathbf{r}_{2}\right)\mathbf{p}_{2}\right\},
+\end{equation}
+where $\mathbf{p}_{1}=\epsilon_{0}\boldsymbol{\alpha}_{1}\mathbf{E}\left(\mathbf{r}_{1}\right)$ and $\mathbf{p}_2=\epsilon_{0}\boldsymbol{\alpha}_{2}\mathbf{E}\left(\mathbf{r}_{2}\right)$ are the particles polarisation and $\boldsymbol{\mu}$ is the emitter. The electric field at particles position can be obtained by solving the system of equations:
+
+
+\begin{eqnarray}
+\mathbf{E}\left(\mathbf{r}_{1}\right) & = & \frac{k^2}{\epsilon_{0}}\mathbf{G}\left(\mathbf{r}_{1},\mathbf{r}_{0}\right)\boldsymbol{\mu} + \frac{k^2}{\epsilon_{0}}\mathbf{G}\left(\mathbf{r}_{1},\mathbf{r}_{2}\right)\epsilon_{0}\boldsymbol{\alpha}_{2}\mathbf{E}\left(\mathbf{r}_{2}\right)\nonumber\\
+\mathbf{E}\left(\mathbf{r}_{2}\right) & = & \frac{k^2}{\epsilon_{0}}\mathbf{G}\left(\mathbf{r}_{2},\mathbf{r}_{0}\right)\boldsymbol{\mu} + \frac{k^2}{\epsilon_{0}}\mathbf{G}\left(\mathbf{r}_{2},\mathbf{r}_{1}\right)\epsilon_{0}\boldsymbol{\alpha}_{1}\mathbf{E}\left(\mathbf{r}_{1}\right).
+\end{eqnarray}
+To evaluate the normalised decay rate, defined at Eq. (\ref{eq:decay_rate_chap3}), is necessary to calculate the scattered field by the particles at the emitter position. The scattered electric field is given by:
+
+\begin{equation}
+\mathbf{E}_{s} = \frac{k^2}{\epsilon_{0}}\mathbf{G}\left(\mathbf{r}_{0},\mathbf{r}_{1}\right)\epsilon_{0}\boldsymbol{\alpha}_{1}\mathbf{E}\left(\mathbf{r}_{1}\right) + \frac{k^2}{\epsilon_{0}}\mathbf{G}\left(\mathbf{r}_{0},\mathbf{r}_{2}\right)\epsilon_{0}\boldsymbol{\alpha}_{2}\mathbf{E}\left(\mathbf{r}_{2}\right).
+\end{equation}
+%This problem, due to the increasing of complexity when compared with the one particle system, is only evaluated numerically. Although it is expected a decay rate dependency with the diagonal elements of the polarisability tensor due to the orthogonality of the scattered field with the emitter direction.
+We consider the same conditions as in the previous section, \textit{i.e.}, two non-absorbing particle of radius  $5nm$, with a dielectric tensor formed by $\epsilon = 3$ and $\epsilon_{xy} = 0.1i$, with the point emitter oriented in the $\boldsymbol{\mu} = \left(\mu_{x},0,0\right)$, radiating with a wavelength of $\lambda = 500nm$. The emitter is at same distance from the two particles that form the cavity. 
+%O emissor está posicionado entre as duas particulas. 
+%Due to the absence of absorption in the system and consequently the nonexistence of non-radiative decay channels, the normalised decay rate is equal to the normalised radiative decay rate $\Gamma/\Gamma_{0} = \Gamma^{R}/\Gamma_{0}$.\\
+We study the dependence of the normalised decay rate, $\Gamma/\Gamma_{0}$, with the distance that separates the particles and the emitter, where the distances are calculated from the center of the particles. The system is evaluated in two different situations: in the presence and absence of an external static magnetic field. Results are shown in Fig. (\ref{fig:NDR_2part_woutabs}).
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=8cm, angle=-90]{Chapter_5/plots/2_part_without_absorp/norm_decay_rate_vs_dist_noabs.eps} 
+\par\end{centering}
+\caption{(a) Normalised decay rate of the emitter as a function of the distance between the emitter and a non-absorbing particles. The red line represents the system in the absence of the magnetic field, and the blue circles the system in the presence of the magnetic field.\\
+(b)  Decay rate ratio of the emitter between the system in the presence and absence of the applied magnetic field. \label{fig:NDR_2part_woutabs}}
+\end{figure}
+
+Both situations exhibit an almost identical normalised decay rate, with a minimum for a distance $\approx 9.75nm$.  In  Fig. (\ref{fig:NDR_2part_woutabs})(b) we present the ratio of the normalised decay rate between the system in the presence and in the absence of the magnetic field, $\Gamma^{\textnormal{MO}}/\Gamma^{\textnormal{NoMO}}$. Although the global behaviour of the decay rate is similar, at minimum, $d \approx 9.75nm$, the ratio between both is given by a factor of $\approx 500$, meaning that the emitter in the presence of the magnetic field has a decay rate $500$ bigger than in the absence of the magnetic field.
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=10cm]{Chapter_5/plots/2_part_without_absorp/all_3d_without_absorp.png} 
+\par\end{centering}
+\caption{Electric far field patterns of the system formed by an emitter and an absorbing MP nanoparticle in the presence, (a) and (c), and absence, (b) and (d), of an external applied magnetic field. Are presented two different distances between the particle and the emitter, at minimum, $d = 9.75nm$, and out of the minimum, $d = 8nm$, of the normalised radiative decay rate.\label{fig:field_patterns_2part_woutabs}}
+\end{figure}
+
+We present the electric far field patterns for two different distances between the particles and the emitter, at a minimum, $d = 9.75 nm$, and out of the minimum, $d = 8 nm$. All field patterns are normalised by the corresponding radiation power.\\
+For particles at $d = 8 nm$, the field patterns are indistinguishable, like shown in Fig. (\ref{fig:field_patterns_2part_woutabs})(a)-(b). They present the toroidal shape that characterises the emission of a dipole in far field.
+\\
+For particles at $d = 9.75 nm$, at the minimum of the decay rate, we obtain different field patterns, as seen in Fig. (\ref{fig:field_patterns_2part_woutabs})(c)-(d).
+When in the absence of the magnetic field, the field pattern is oriented in the $y$ direction with two symmetric lobes. This uncommon pattern is due to the strong inhibition.
+With the application of the magnetic field the system exhibit a toroidal shape, like a single dipole emitter, but oriented in the $y$ axis. Due to the ratio of the decay rate between both situations, that at this distance is a factor of $\approx 500$, we observe that the system in absence of the magnetic field radiate a very small amount of energy when compared with the applied magnetic field. Roughly speaking, the system passes from a not radiating to a radiating state.  It also exhibits a far field pattern similar to a dipole emitter, but instead of been aligned with $x$ axis, is aligned with the $y$ axis. This is due to the conversion of electric field in the $x$ axis into the $y$ axis by the out of diagonal elements of the dielectric tensor.
+
+
+%When in the absence of the magnetic field, the system radiates in the $y$ and $-y$ direction, with a small protuberance in the $z$ direction. When the magnetic field is applied, the system radiates like a dipole, with the toroidal shape, appearing rotated, oriented now in the $y$ direction. This happens because with the application of the magnetic field a new radiative channel is opened, at the induced component. 
+
+
+%Although the non-absorbing system offers a base to the problem understand- ing, absorption in many cases play a relevant if not crucial role in the global behaviour of the systems. This leads us to consider a system like the one described above, but this time with a dielectric tensor formed by epsilon= 3 + 0.1i and epsilonxy = 0.1i, introducing this way the absorption. With this modification, the non radiative decay rate is no longer gamma/gamma_0 = 0 and Eq. (3.12) must be completely considered.
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=8cm, angle=-90]{Chapter_5/plots/2_part_with_absorp/norm_decay_rate_vs_distance.eps} 
+\par\end{centering}
+\caption{Normalised decay rate of the emitter as a function of the distance between the emitter and an absorbing particle. The red line represents the system in the absence of the magnetic field, and the blue circles the system in the presence of the magnetic field.\label{fig:NDR_2part_wabs}}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=8cm, angle=-90]{Chapter_5/plots/2_part_with_absorp/norm_radiative_decay_rate_vs_distance.eps} 
+\par\end{centering}
+\caption{(a) Normalised radiative decay rate of the emitter as a function of the distance between the emitter and a absorbing particles. The red line represents the system in the absence of the magnetic field, and the blue circles the system in the presence of the magnetic field.\\
+(b)  Radiative decay rate ratio of the emitter between the system in the presence and absence of the applied magnetic field.  \label{fig:NRDR_2part_wabs}}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=11.5cm]{Chapter_5/plots/2_part_with_absorp/all_3d_with_absorp.png} 
+\par\end{centering}
+\caption{
+Electric far field patterns of the system formed by an emitter and an absorbing MP nanoparticle in the presence, (a) and (c), and absence, (b) and (d), of an external applied magnetic field. Are presented two different distances between the particle and the emitter, at minimum, $d = 9.75nm$, and out of the minimum, $d = 8nm$, of the normalised radiative decay rate.\label{fig:field_patterns_2part_wabs}}
+\end{figure}
+
+As in the single particle configuration, we now introduce absorption to the particles that form the cavity. The dielectric tensor of the particles is given by $\epsilon = 3+ 0.1i$ and $\epsilon_{xy} = 0.1i$. With this modification, the non-radiative decay rate $\Gamma^{\textnormal{NR}}/\Gamma_{0}$ is no longer $0$ and Eq. (\ref{eq:decay_sum}) must be completely considered. Results of the normalised decay rate are presented in Fig. (\ref{fig:NDR_2part_wabs}). Comparing both situations, the normalised decay rate is almost indistinguishable, from one case to the other. Being an absorbing system, non-radiative channels can play an important role.
+
+We analyse the normalised radiative decay rate as a function of the distance between the particle and the emitter, represented in Fig. (\ref{fig:NRDR_2part_wabs})(a) in both cases. The system exhibits an identical normalised radiative decay rate in the presence or absence of the magnetic field with a minimum for a distance of $\approx 9.75nm$. In Fig. (\ref{fig:NRDR_2part_wabs})(b) is presented the ratio of the normalised radiative decay rate,  $\Gamma^{\textnormal{R}_{\textnormal{MO}}}/\Gamma^{\textnormal{R}_{\textnormal{NoMO}}}$.  Although the global behaviour of the decay rate is similar, at minimum ($d \approx 9.75nm$), the ratio between both setups is defined by a factor of $\approx 2.2$, meaning that the emitter in the presence of the magnetic field has a decay rate $2.2$ bigger than the setup in the absence of the magnetic field.
+
+The radiated field patterns normalised by their corresponding radiation power are presented in Fig. (\ref{fig:field_patterns_2part_wabs}), for two distances: one at the minimum  $d = 9.75 nm$ and other out of the minimum $d = 8nm$ of the normalised radiative decay rate.\\
+In the case where the particles are at $d = 8 nm$, the field patterns are almost indistinguishable, when the system is in the presence or absence of the applied magnetic field, Fig. (\ref{fig:field_patterns_2part_wabs})(a)-(b). They present the toroidal shape that characterise the emission of a dipole in far field.\\
+In the case where the particles are at $d = 9.75 nm$, at minimum of the radiative decay rate, the field patterns are rotated relatively to each other, as can be seen in Fig. (\ref{fig:field_patterns_2part_wabs})(c)-(d). In the absence of the magnetic field the system radiate as a single dipole. When applied the magnetic field the far field pattern rotate over the $x-y$ plane. This occurs due to the conversion of electric field in the $x$ axis into the $y$ axis by the out of diagonal elements of the dielectric tensor.
+
+
+
+\section{Conclusions\label{sec:chap5_conclusions}}
+
+In this chapter we presented a study of the properties of an emitter in two different situations: in the presence of a single MP nanoparticle and inside of a cavity formed by two MP nanoparticles.
+We studied the modification of the electromagnetic behaviour of the systems when applied an external magnetic field.\\
+In all configurations we observed that the radiative decay rate has a minimum for a specific distance between the particles and the emitter. At this minimum and in the configuration of the single particle (for the absorbing or non-absorbing case), the radiative decay rate vary a factor of $\approx 2$ with the presence of the magnetic field. For the same distance, the radiated field patterns suffer a strong deformation with the presence of the magnetic field.\\
+In the cavity configuration, for the distance where the system presents the minimum, the radiative decay rate could vary from a factor of $\approx 500$, for non-absorbing particles, to a factor of $\approx 2$, for the absorbing particles. It was clear that absorption controls the magnitude of the phenomenon. Although the conclusions are similar to those presented in the single particle configuration, in the cavity with non-absorbing particles we observed a strong inhibition in the absence of the magnetic field. Due to the presence of the magnetic field, a new radiative channel in the $y$ direction was opened, allowing the system to radiate in that direction. \\
+%Thus, the presence of the magnetic field allows the induction of a dipole in the perpendicular direction of the electromagnetic excitation and the applied magnetic field. This induced dipole, when the radiation in the excitation direction is inhibited, governs the radiated field patterns.
+
+%In the first case, an emitter in the presence of a single MP nanoparticle, was observed that the radiative decay rate as a function of the distance of the emitter and particle exhibit a minimum for a specific distance. At this minimum, the presence or absence of the magnetic field was crucial in the radiated field patterns of the system. For other distances was not observed any modification in the radiated field patterns and the decay rate ratio was approximately $1$.\\
+%In the second case, the emitter inside of a MP cavity formed by two nanoparticles, a similar study was made. Also was detected a minimum in the radiative decay rate for a specific distance. At this minimum, the far field radiated patterns are different when the system is in the presence or absence of the magnetic field. At this minimum, the radiative decay rate could vary from a factor of $\approx 500$, with non-absorbing particles, to a factor of $\approx 2$, with the absorbing particles. This  ratio difference shows that this simple systems when in an inhibition state can be externally modified, by a magnetic field, with the aim increase the radiative power. Roughly speaking, the magnetic field can be seen as a switch button for the radiative power. Also at this minimum, the presence or absence of the magnetic field strongly modify the field patterns. Like before, the modification in the radiated field patters are relevant only at minimum. 

@@ -1,0 +1,123 @@
+%==================================================================================================
+%   Nuno de Sousa Template 1.0
+%   -------------------------
+%   This template is based on Luke template.
+%
+%   -------------------------
+%   Last Updated: 2014-01-28
+%   Contact: nuno.teixeira@uam.es
+%==================================================================================================
+%
+%==================================================================================================
+% DOCUMENT SETUP
+%==================================================================================================
+\documentclass[10pt,twoside]{book}
+%
+%
+%Set to 'print' for printed version, use 'net' for online version
+\def\thesisversion{print}
+%
+%==================================================================================================
+% PACKAGES
+%==================================================================================================
+\usepackage{NunoThesis}                             %Import Thesis base style
+%input{PhDMacros}                                   %Thesis specific macros
+%
+%==================================================================================================
+% THESIS PROPERTIES (Modifiy these fields with your details)
+%==================================================================================================
+\def\thesisauthor{Nuno de Sousa}                     %Author
+\def\thesistitle{Light scattering in disordered and nonreciprocal media}               %Title
+\def\thesishandin{September 2014}                        %Submission date (Day-Month}
+\def\thesisdegree{PhD}                              %Degree ('B.Eng', 'B.Sc.', 'M.Sc.' or 'PhD')
+\def\thesisyear{2014}                               %Submission year
+\def\thesisnumber{}                             %Serial number (do not include year)
+\def\thesisISSN{}                                   %ISSN number
+\def\thesiskeywords{Keywords are, comma separated}  %PDF keywords
+\derivethesisprops                                  %Derive dependent properties
+%
+%==================================================================================================
+% SECTION NUMBERING SETUP
+%==================================================================================================
+\setcounter{tocdepth}{2}                            %2 adds sections up to subsections
+\setcounter{secnumdepth}{3}                         %Subsubsections get a number when this is 3
+%
+%==================================================================================================
+% THESIS STRUCTURE  (Modify to include more chapters etc)
+%==================================================================================================
+\begin{document}
+\includepdf{figures/cover.pdf}
+\newpage\null\thispagestyle{empty}
+\newpage\null\thispagestyle{empty}
+%------------------------
+%Pre-frontmatter material
+%------------------------
+\prefrontmatter
+%--------------------
+%Frontmatter material
+%--------------------
+\frontmatter
+\pagenumbering{roman}                               %Set frontmatter numbering style
+\newpage\null\thispagestyle{empty}
+\newpage\null\thispagestyle{empty}
+\input{summaries/SummaryUK}                                   %English summary of Thesis
+\markboth{}{}                                       %Set headings (left)(right)
+\input{summaries/SummaryES}                                   %Spanish summary of Thesis
+%\markboth{}{}                                       %Set headings (left)(right)
+%\input{preface/Preface}                                     %Preface
+\markboth{}{}                                       %Set headings (left)(right)
+\input{acknowledgements/Acknowledgements}           %Acknowledgements
+\markboth{}{}                                       %Set headings (left)(right)
+%------------------
+% Table of contents
+%------------------
+\newpage\mbox{}\newpage
+\chaptermark{Contents}
+\pdfbookmark{\contentsname}{toc}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\sectionmark{Contents}
+\addtolength{\parskip}{-\baselineskip}
+\tableofcontents
+\addtolength{\parskip}{\baselineskip}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+%-------------
+% Main content
+%-------------
+\mainmatter
+\include{chapter_1/Chapter1}                                   %Chapter 1
+\include{chapter_2/Chapter2}                                   %Chapter 2
+\include{part_1/part1}                                         %Part 1
+\include{chapter_3/Chapter3}                                   %Chapter 3
+\include{chapter_4/Chapter4}                                   %Chapter 4
+\include{chapter_5/Chapter5}                                   %Chapter 5
+\include{part_2/part2}                                         %Part 2
+\include{chapter_6/Chapter6}                                   %Chapter 6
+\include{chapter_7/Chapter7}                                   %Chapter 7
+\include{chapter_8/Chapter8}                                   %Chapter 8
+\include{chapter_9/Chapter9}                                   %Chapter 9
+
+\appendix
+\include{appendices/Appendix1}                                %Appendix A
+\include{appendices/Appendix2}                                %Appendix B
+\include{appendices/Appendix3}                                %Appendix C
+\include{appendices/Appendix4}                                %Appendix D
+\include{appendices/Appendix5}                                %Appendix E
+\include{appendices/Conclusiones_generales}                   %Concluding Remarks in Spanish
+\include{appendices/List_of_publications}                     %List of publications
+
+% 
+-----------
+% Backmatter
+%-----------
+\backmatter
+\chaptermark{Bibliography}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\sectionmark{Bibliography}
+\addcontentsline{toc}{chapter}{Bibliography}         %Force addition of Bibliography to TOC
+%\bibliographystyle{alpha}                            %Use alpha codes for references
+%\bibliography{References}                            %Bibliography file called
+{\footnotesize
+\bibliography{References}}
+
+\end{document}
+% % % EOF % % %

@@ -1,0 +1,127 @@
+\chapter{Radial distribution function\label{App:Radial_distribution_function}}
+
+Th radial distribution function, RDF or $g\left(r\right)$, is an elementary tool used to obtain structural information. \\
+In chapter (\ref{chap7}) we present a numerical evaluation of the radial distribution function for systems with different correlations. In this appendix we show the used procedure. \\
+The radial distribution function, from the numerical point of view, is determined by calculating the distance between all particle pairs and binning them into a histogram. The histogram is then normalized with respect to an ideal gas, where particle histograms are completely uncorrelated. For an uncorrelated system, the histogram can be expressed as follows.
+
+Let us consider a first sphere with radius $R$, like schematically represented in Fig. (\ref{fig:app_sphere}). A second sphere, with radius $\rho$ and centred at distance $r$ from the centre of the first, is added to the system. 
+%To evaluate the radial distribution we have to know the probability of find two particles at a distance $d$.
+%The idea is to evaluate the of the surface 
+%. This probability is given by the ratio between the surface area inside of the secondary inside the primary sphere by the total volume of the primary sphere. Let us consider a second sphere with center inside of the first sphere. The surface of this second sphere that is inside of the primary sphere is given by:
+So, for any radius of the second sphere, the part of the surface that is embedded in the first sphere is given by:
+
+\begin{equation}
+S=2\pi\rho^{2}\int_{\theta_{2}}^{\pi}d\theta\sin\theta=2\pi\rho^{2}\left(1+\cos\theta_{2}\right).
+\end{equation}
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=8cm]{appendices/sphere_scheme.png} 
+\par\end{centering}
+\caption{Schematic representation of the sphere and its dimensions.\label{fig:app_sphere}}
+\end{figure}
+From the analysis of the Fig. (\ref{fig:app_sphere}), we can define the following equalities:
+
+\begin{eqnarray}
+R\sin\theta_{1} & = & \rho\sin\theta_{2} \nonumber\\
+R\cos\theta_{1} & = & r+\rho\cos\theta_{2}
+\end{eqnarray}
+\begin{eqnarray}
+R^{2}& = & \rho^{2}+r^{2}+2r\rho\cos\theta_{2}=\cos\theta_{2}=\frac{R^{2}-\rho^{2}-r^{2}}{2r\rho}\\
+1+\cos\theta_{2}&=&\frac{R^{2}-\left(r-\rho\right)^{2}}{2r\rho}.
+\end{eqnarray}
+
+The probability of find a particle at some distance $r$ from the center of the first sphere is:
+
+\begin{equation}
+P\left(r\right)=\frac{4\pi r^2}{\left(4/3\right)\pi R^{3}}=\frac{3r^2}{R^3}.
+\end{equation}
+
+Now, the problem is divided in two parts. The first case, where $\left(\rho\leq R\right)$ and the second case, where $\left(\rho\geq R\right)$.
+
+Case 1 $\left(\rho\leq R\right)$:
+
+For the situation where $R\geq r + \rho$, \textit{i.e.}, the case where the second is totally inside of the primary sphere, the surface of the second sphere is given by: 
+
+\begin{equation}
+S\left(\rho,r\right)=4\pi\rho^{2}\qquad if\ R\geq r+\rho\rightarrow R-\rho\geq r\geq 0 \nonumber
+\end{equation}
+
+If only part of the second sphere is inside of the first sphere, $R<r+\rho$, the surface of second sphere embedded is:
+
+\begin{equation}
+S\left(\rho,r\right)=\pi\frac{\rho}{r}\left[R^{2}-\left(r-\rho\right)^{2}\right]\qquad R<r+\rho\rightarrow R-\rho<r.
+\end{equation}
+
+So, the probability of have any two particles at distance $\rho$ is given by:
+
+\begin{eqnarray}
+P\left(\rho\right) & \propto & \int_{0}^{R}S\left(\rho,r\right)P\left(r\right)dr\\
+& \propto & \frac{3}{R^{3}}\left[\int_{0}^{R-\rho}dr4\pi r^{2}\rho^{2}+\int_{R-\rho}^{R}dr\pi\rho r\left[R^{2}-\left(r-\rho\right)^{2}\right]\right]\\
+& \propto & \int_{0}^{R}S\left(\rho,r\right)P\left(r\right)dr=\frac{3}{R^{3}}\left[\int_{0}^{R-\rho}dr4\pi r^{2}\rho^{2}+\right.\nonumber\\
+ & &\left.\int_{R-\rho}^{R}dr\pi\rho r\left[R^{2}-R^{2}-\rho^{2}+2r\rho-r^{2}\right]\right]\\
+ & \propto & \int_{0}^{R}S\left(\rho,r\right)P\left(r\right)dr=\frac{3}{R^{3}}\left[\int_{0}^{R-\rho}dr4\pi r^{2}\rho^{2}+\right.\nonumber\\
+ & &\left.\int_{R-\rho}^{R}dr\pi\rho r\left[R^{2}-R^{2}-\rho^{2}+2r\rho-r^{2}\right]\right]\\
+ & \propto & \frac{3}{R^{3}}\left[\frac{4}{3}\pi\rho^{2}\left(R-\rho\right)^{3}+\frac{\pi\rho\left(R^{2}-\rho^{2}\right)}{2}\left[R^{2}-\left(R-\rho\right)^{2}\right]+\right.\nonumber\\
+& & \left. \frac{2\pi\rho^{2}}{3}\left[R^{3}-\left(R-\rho\right)^{3}\right] -\frac{\pi\rho}{4}\left[R^{4}-\left(R-\rho\right)^{4}\right]\right]\\
+P\left(\rho\right)& \propto & \frac{\pi}{4R^{3}}\left\{ 16\rho^{2}\left(R-\rho\right)^{3}+6\rho\left(R^{2}-\rho^{2}\right)\left[R^{2}-\left(R-\rho\right)^{2}\right]+\right.\nonumber\\
+& &\left. +8\rho^{2}\left[R^{3}-\left(R-\rho\right)^{3}\right]-3\rho\left[R^{4}-\left(R-\rho\right)^{4}\right]\right\}.
+\end{eqnarray}
+%\begin{equation}
+%If\ \rho=R\rightarrow P\left(\rho=R\right)=\frac{\pi}{4R^{3}}\left(8R^{5}-3R^{5}\right)=\frac{5}{4}\pi R^{2}
+%\end{equation}
+
+Case 2 $\left(\rho\geq R\right)$:
+
+For the situation where $R\geq r - \rho$: 
+
+
+ $\left(\rho\geq R\right)\ if\ \rho-r\leq R\rightarrow S\left(\rho,r\right)=\pi\frac{\rho}{R}\left[R^{2}-\left(r-\rho\right)^{2}\right]$
+
+\[
+\rho-r\geq R\rightarrow S\left(\rho,r\right)=0
+\]
+
+
+\[
+P\left(\rho\right)\propto\frac{3\pi\rho}{R^{3}}\int_{\rho-R}^{R}\left\{ \left(R^{2}-\rho^{2}\right)r+2\rho r^{2}-r^{3}\right\} 
+\]
+
+
+\begin{eqnarray}
+& \propto & \frac{3\pi\rho\left(R^{2}-\rho^{2}\right)}{2R^{3}}\left[R^{2}-\left(\rho-R\right)^{2}\right]+\nonumber\\
+& & +\frac{2\pi\rho^{2}}{R^{3}}\left[R^{3}-\left(\rho-R\right)^{3}\right]-\frac{3\pi\rho}{4R^{3}}\left[R^{4}-\left(\rho-R\right)^{4}\right]
+\end{eqnarray}
+
+
+\begin{eqnarray}
+P\left(\rho\right) & \propto &\frac{\pi\rho}{4R^{3}}\left\{ -3R^{4}+3\left(\rho-R\right)^{4}+8\rho\left[R^{3}-\left(\rho-R\right)^{3}\right]+\right.\nonumber\\
+& & \left.+6\left(R^{2}-\rho^{2}\right)\left[R^{2}-\left(\rho-R\right)^{2}\right]\right\}.
+\end{eqnarray}
+
+So, we can finally write:
+
+\begin{equation}
+P\left(\rho\right) = \begin{cases}
+ & \frac{3}{4\pi R^3}\frac{\pi}{4R^{3}}\left\{ 16\rho^{2}\left(R-\rho\right)^{3}+6\rho\left(R^{2}-\rho^{2}\right)\left[R^{2}-\left(R-\rho\right)^{2}\right]+\right.\\
+&\left. +8\rho^{2}\left[R^{3}-\left(R-\rho\right)^{3}\right]-3\rho\left[R^{4}-\left(R-\rho\right)^{4}\right]\right\}  \quad \rho \le R\\
+&\\ 
+  &\frac{3}{4\pi R^3} \frac{\pi\rho}{4R^{3}}\left\{ -3R^{4}+3\left(\rho-R\right)^{4}+8\rho\left[R^{3}-\left(\rho-R\right)^{3}\right]+\right.\nonumber\\
+& \left.+6\left(R^{2}-\rho^{2}\right)\left[R^{2}-\left(\rho-R\right)^{2}\right]\right\} \quad \rho \ge R.
+\end{cases}
+\end{equation}
+
+In Fig. (\ref{fig:app_uncorrelated}) we present the normalized histogram of a system with radius $R = 1$.
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=7cm, angle=-90]{appendices/uncorrelated.eps} 
+\par\end{centering}
+\caption{Normalised histogram of the distance between all particle pairs for a sphere with $R = 1$.\label{fig:app_uncorrelated}}
+\end{figure}
+
+
+
+%If $\rho=R^{+}\rightarrow P\left(\rho=R^{+}\right)=\frac{\pi R}{4R^{3}}\left\{ -3R^{4}+8R^{4}\right\} =\frac{5}{4}\pi R^{2}$
+
+%That coincids with the other result $\rho=R^{-}$

@@ -1,0 +1,353 @@
+\chapter{Coupled oscillators}
+
+\section{Spring-mass model \label{app:coupled_masses}}
+
+In Sec. (\ref{sec:chap3_nanoresonators}) we obtained the following matrix:
+
+\begin{eqnarray}
+\mathbf{M}\left(\begin{array}{c}
+\mathbf{r}_{1}\\
+\mathbf{r}_{2}
+\end{array}\right) & \equiv & \left[\begin{array}{cc}
+\left(\left(\Omega_{1}^{2}-\omega_{12}^{2}\right)\mathbb{\mathbb{I}}+\omega\omega_{c,1}\sigma_{2}\right) & \omega_{12}^{2}\mathbb{I}\\
+\omega_{12}^{2}\mathbb{I} & \left(\left(\Omega_{2}^{2}-\omega_{12}^{2}\right)\mathbb{\mathbb{I}}+\omega\omega_{c,2}\sigma_{2}\right)
+\end{array}\right]\left(\begin{array}{c}
+\mathbf{r}_{1}\\
+\mathbf{r}_{2}
+\end{array}\right)\nonumber \\
+ & = & \left(\begin{array}{c}
+-\mathcal{F}_{1}\\
+-\mathcal{F}_{2}
+\end{array}\right),
+\end{eqnarray}
+where $\mathbb{I}$ is a $2\times2$ unit matrix, $\sigma_{2}$ is the $2\times2$ Pauli matrix $\left(\sigma_{2}\equiv \left(\begin{array}{cc}
+0 & -i\\
+i & 0
+\end{array}\right)\right)$ and $\Omega_{i}^2\equiv \omega^2 -\omega_{i}^2 + i\omega \gamma_{i}$.
+
+It can generally written as: 
+
+\begin{equation}
+\left[\begin{array}{cccc}
+a & 0 & c & 0\\
+0 & a & 0 & c\\
+c & 0 & d & -b\\
+0 & c & b & d
+\end{array}\right]\left[\begin{array}{c}
+x_{1}\\
+y_{1}\\
+x_{2}\\
+y_{2}
+\end{array}\right]=A\left[\begin{array}{c}
+1\\
+0\\
+1\\
+0
+\end{array}\right].
+\end{equation}
+
+Therefore the solution reads:
+
+\begin{equation}
+\left[\begin{array}{c}
+x_{1}\\
+y_{1}\\
+x_{2}\\
+y_{2}
+\end{array}\right]=\frac{A}{\hat{{\cal D}}}\left[\begin{array}{cccc}
+ad^{2}-dc^{2}+b^{2}a & bc^{2} & c^{3}-dca & -bca\\
+-bc^{2} & ad^{2}-dc^{2}+b^{2}a & bca & c^{3}-dca\\
+c^{3}-dca & -bca & da^{2}-c^{2}a & a^{2}b\\
+bca & c^{3}-dca & -ba^{2} & da^{2}-c^{2}a
+\end{array}\right]\left[\begin{array}{c}
+1\\
+0\\
+1\\
+0
+\end{array}\right],
+\end{equation}
+
+where $\hat{{\cal{D}}}=c^4-2ac^2d +a^2\left(d^2 + b^2\right)$.  This in the end five rise to:
+
+\begin{equation}
+\begin{cases}
+x_{1}= & \frac{A}{\hat{{\cal D}}}\left[\left(c^{2}-ad\right)\left(c-d\right)+b^{2}a\right]\\
+y_{1}= & \frac{A}{\hat{{\cal D}}}\left[-bc\left(c-a\right)\right]\\
+x_{2}= & \frac{A}{\hat{{\cal D}}}\left[\left(c^{2}-ad\right)\left(c-a\right)\right]\\
+y_{2}= & \frac{A}{\hat{{\cal D}}}\left[ba\left(c-a\right)\right].
+\end{cases}
+\end{equation}
+
+\section{Point dipole model\label{App:coupled_oscillators}}
+
+Let us consider a system formed by two dipoles in the presence of a magnetic field, like represented in Fig. (\ref{fig:app4_disks}). The top dipole is plasmonic and the bottom dipole is magnetoplasmonic, positioned at $\mathbf{r}_1$ and $\mathbf{r}_{2}$ respectively.
+The interaction between the two dipoles is given by the Green tensor:
+
+\begin{equation}
+\mathbf{G}\left(\mathbf{r}_{1},\mathbf{r}_{2}\right) = \frac{e^{ikR}}{4\pi R}\left[\left(1+\frac{ikR-1}{k^2R^2}\right)\mathbb{I}+\frac{3-3ikR-k^2R^2}{k^2R^2}\frac{\mathbf{R} \otimes\mathbf{R}}{R^2}\right],\label{eq:app4_Green_tensor}
+\end{equation}
+where $\mathbf{R} = \mathbf{r}_{1} - \mathbf{r}_{2}$ and $R$ is the absolute value. \\
+
+\begin{figure}[h!]
+\begin{centering}
+\includegraphics[width=7cm]{appendices/disks_app4.png} 
+\par\end{centering}
+\caption{Schematic representation of the system under study. The disk $1$ and $2$ are plasmonic and magnetoplasmonic disk respectively. $\mathbf{B}$ indicates the direction of the applied magnetic field.\label{fig:app4_disks}}
+\end{figure}
+The incident electric field on a particle $i$ originated from an ensemble of ${\cal{N}}$ particles is given by:
+
+\begin{equation}
+\mathbf{E}\left(\mathbf{r}_i\right) = \mathbf{E}_{0}\left(\mathbf{r}_i\right) + \frac{k^2}{\epsilon_{0}}\sum_{i \neq j}^{\cal{N}}\mathbf{G}\left(\mathbf{r}_i,\mathbf{r}_j\right) \mathbf{p}_j,
+\end{equation}
+where $\mathbf{p}_j = \epsilon_{0}\boldsymbol{\alpha}_i\mathbf{E}\left(\mathbf{r}_j\right)$ is the polarisation of particle $j$. The incident wave $\mathbf{E}_{0}\left(\bold{r}\right)=E_{0}e^{-ikz}\bold{u}_x$ is polarised along the $x-$axis and its wavevector is parallel to the $z-$axis (short axis of the particles), the polarisation of the particles lies in the $x-y$ plane:
+
+\begin{equation}
+\boldsymbol{\alpha}\left(\omega\right)=\left[\begin{array}{ccc}
+\alpha_{i,xx} & \alpha_{i,xy} & 0\\
+-\alpha_{i,xy} & \alpha_{i,xx}& 0\\
+0 & 0 & \alpha_{i,zz}
+\end{array}\right],\label{eq:app4_polarizabilitytensor}
+\end{equation}
+and the Green tensor that describes the interaction of the two particles (placed along $z-$axis) is diagonal and its given by:
+
+\begin{equation}
+\mathbf{G}\left(\mathbf{r}_1,\mathbf{r}_2\right) = \mathbf{G}\left(\mathbf{r}_2,\mathbf{r}_1\right) = \mathcal{G}\mathbb{I}=\frac{e^{ikd}}{4\pi d}\frac{\left(kd\right)^2+ikd-1}{\left(kd\right)^2}\mathbb{I},
+\end{equation}
+being $d$ the distance between the particles. One has to take into account that with the geometry described above the $z-$direction plays no role and can be excluded. The equations to deal with are:
+
+\begin{equation}
+\mathbf{M}\left[\begin{array}{c}
+\mathbf{p}_{1}\\
+\mathbf{p}_{2}
+\end{array}\right]\equiv\left[\begin{array}{cc}
+\frac{\boldsymbol{\alpha}_{1}^{-1}}{\epsilon_{0}} & -\frac{k^2}{\epsilon_{0}}\mathcal{G}\mathbb{I}\\
+-\frac{k^2}{\epsilon_{0}}\mathcal{G}\mathbb{I} & \frac{\boldsymbol{\alpha}_{2}^{-1}}{\epsilon_0}
+\end{array}\right]\left(\begin{array}{c}
+\mathbf{p}_{1}\\
+\mathbf{p}_{2}
+\end{array}\right)=\left(\begin{array}{c}
+\mathbf{E}_{0,1}\\
+\mathbf{E}_{0,1}e^{i\delta}
+\end{array}\right).
+\end{equation}
+where $\boldsymbol{\alpha}_i$ is the $2\times2$ $x-y$ part of the tensor described in Eq. (\ref{eq:app4_polarizabilitytensor}), $\mathbf{E}_{0,1}e^{i\delta} = \mathbf{E}_{0,2}$ and $\delta = -kd$ is the phase difference on the incoming wave due to the separation distance $d$ (normally $\delta \ll 1$).\\
+We want to obtain the electric field that each particle feels, so:
+
+\begin{equation}
+\begin{bmatrix}\mathbf{E}_{1}\\
+\mathbf{E}_{2}
+\end{bmatrix}=\begin{bmatrix}\mathbb{I} & -k^2\mathcal{G}\boldsymbol{\alpha}_{2}\\
+-k^{2}\mathcal{G}\boldsymbol{\alpha}_{1} & \mathbb{I}
+\end{bmatrix}^{-1}\left[\begin{array}{c}
+\mathbf{E}_{0,1}\\
+\mathbf{E}_{0,2}
+\end{array}\right].\label{Eq:app_D10}
+\end{equation}
+For the inversion, we consider the equations $\mathbf{A}=\mathcal{G}\boldsymbol{\alpha}_{2}$
+and \textbf{$\mathbf{B}=\mathcal{G}\boldsymbol{\alpha}_{1}$}, with
+$\tilde{\mathcal{G}}=k^{2}\mathcal{G}\left(\mathbf{r},\mathbf{r}'\right)$
+\footnote{Note that $\det\left[\mathbb{I}-\mathcal{G}^{2}\boldsymbol{\alpha}_{1}\boldsymbol{\alpha}_{2}\right]=\det\left[\mathbb{I}-\mathcal{G}^{2}\boldsymbol{\alpha}_{2}\boldsymbol{\alpha}_{1}\right]$}:
+
+\begin{equation}
+\begin{bmatrix}\mathbb{I} & -\tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}\\
+-\tilde{\mathcal{G}}\boldsymbol{\alpha}_{1} & \mathbb{I}
+\end{bmatrix}^{-1}=\frac{1}{\mathbb{I}-\tilde{\mathcal{G}}^{2}\boldsymbol{\alpha}_{1}\boldsymbol{\alpha}_{2}}\begin{bmatrix}\mathbb{I} & \tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}\\
+\tilde{\mathcal{G}}\boldsymbol{\alpha}_{1} & \mathbb{I}
+\end{bmatrix}.
+\end{equation}
+Moving the determinant to the inside of the matrix:
+
+\begin{equation}
+\begin{bmatrix}\frac{\mathbb{I}}{\mathbb{I}-\tilde{\mathcal{G}}\boldsymbol{\alpha}_{1}\tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}} & \frac{\tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}}{\mathbb{I}-\tilde{\mathcal{G}}\boldsymbol{\alpha}_{1}\tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}}\\
+\frac{\mathbb{I}}{\mathbb{I}-\tilde{\mathcal{G}}\boldsymbol{\alpha}_{1}\tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}} & \frac{\mathbb{I}}{\mathbb{I}-\tilde{\mathcal{G}}\boldsymbol{\alpha}_{1}\tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}}
+\end{bmatrix}=\begin{bmatrix}\left[\mathbb{I}-\tilde{\mathcal{G}}\boldsymbol{\alpha}_{1}\tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}\right]^{-1} & \tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}\left[\mathbb{I}-\tilde{\mathcal{G}}\boldsymbol{\alpha}_{1}\tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}\right]^{-1}\\
+\tilde{\mathcal{G}}\boldsymbol{\alpha}_{1}\left[\mathbb{I}-\tilde{\mathcal{G}}\boldsymbol{\alpha}_{1}\tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}\right]^{-1} & \left[\mathbb{I}-\tilde{\mathcal{G}}\boldsymbol{\alpha}_{1}\tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}\right]^{-1}
+\end{bmatrix}.
+\end{equation}
+We can start to analyse element by element of the matrix:
+
+\begin{eqnarray}
+\left[\mathbb{I}-\mathbf{A}\mathbf{B}\right]^{-1} & = & \left[\begin{bmatrix}1 & 0\\
+0 & 1
+\end{bmatrix}-\tilde{\mathcal{G}}^{2}\begin{bmatrix}\alpha_{2xx} & \alpha_{2xy}\\
+\alpha_{2yx} & \alpha_{2yy}
+\end{bmatrix}\begin{bmatrix}\alpha_{1} & 0\\
+0 & \alpha_{1}
+\end{bmatrix}\right]^{-1} \nonumber\\
+\left[\mathbb{I}-\mathbf{A}\mathbf{B}\right]^{-1} & = & \begin{bmatrix}1-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xx} & -\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xy}\\
+-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2yx} & 1-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2yy}
+\end{bmatrix}^{-1}. \label{eq:app4_common_matrix}
+\end{eqnarray}
+Due to the symmetry of the problem ($\alpha_{2xy}=-\alpha_{2yx}$;
+$\alpha_{2xx}=\alpha_{2yy}$):
+
+\begin{equation}
+\left[\mathbb{I}-\mathbf{A}\mathbf{B}\right]^{-1}=\begin{bmatrix}1-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xx} & -\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xy}\nonumber\\
+\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xy} & 1-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xx}
+\end{bmatrix}^{-1}.\label{eq:app4_common_matrix}
+\end{equation}
+We can write the matrix elements as:
+
+\begin{equation}
+\left[\mathbb{I}-\mathbf{A}\mathbf{B}\right]^{-1}=\frac{1}{\mathcal{D}}\begin{bmatrix}1-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xx} & \tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xy}\\
+-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xy} & 1-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xx}
+\end{bmatrix},
+\end{equation}
+
+\begin{eqnarray}
+\mathbf{A}\left[\mathbb{I}-\mathbf{A}\mathbf{B}\right]^{-1} & = & \tilde{\mathcal{G}}\begin{bmatrix}\alpha_{2xx} & \alpha_{2xy}\\
+-\alpha_{2xy} & \alpha_{2xx}
+\end{bmatrix}\begin{bmatrix}1-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xx} & \tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xy}  \\
+-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xy} & 1-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xx}
+\end{bmatrix} \nonumber\\
+& = & \left[\begin{array}{c}
+\tilde{\mathcal{G}}\alpha_{2xx}-\tilde{\mathcal{G}}^{3}\alpha_{1}\alpha_{2xx}^{2}-\tilde{\mathcal{G}}^{3}\alpha_{1}\alpha_{2xy}^{2}\\
+-\tilde{\mathcal{G}}\alpha_{2xy}
+\end{array}\right.\vdots \nonumber\\
+& &\vdots\left.\begin{array}{c}
+\tilde{\mathcal{G}}\alpha_{2xy}\\
+\tilde{\mathcal{G}}\alpha_{2xx}-\tilde{\mathcal{G}}^{3}\alpha_{1}\alpha_{2xy}^{2}-\tilde{\mathcal{G}}^{3}\alpha_{1}\alpha_{2xx}^{2}
+\end{array}\right],
+\end{eqnarray}
+
+\begin{eqnarray}
+\mathbf{B}\left[\mathbb{I}-\mathbf{A}\mathbf{B}\right]^{-1} & = & \tilde{\mathcal{G}}\begin{bmatrix}\alpha_{1} & 0\\
+0 & \alpha_{1}
+\end{bmatrix}\begin{bmatrix}1-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xx} & \tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xy}\\
+-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xy} & 1-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xx}
+\end{bmatrix}\\
+ & = & \begin{bmatrix}\tilde{\mathcal{G}}\alpha_{1}-\tilde{\mathcal{G}}^{3}\alpha_{1}^{2}\alpha_{2xx} & \tilde{\mathcal{G}}^{3}\alpha_{1}\alpha_{2xy}\\
+-\tilde{\mathcal{G}}^{3}\alpha_{1}^{2}\alpha_{2xy} & \tilde{\mathcal{G}}\alpha_{1}-\tilde{\mathcal{G}}^{3}\alpha_{1}^{2}\alpha_{2xx}
+\end{bmatrix},
+\end{eqnarray}
+and the determinant of the \ref{eq:app4_common_matrix} matrix is:
+
+\begin{eqnarray}
+\mathcal{D} & = & \left(1-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xx}\right)^{2}+\left(\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xy}\right)^{2}\\
+\mathcal{D} & = & 1-\left(2\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xx}\right)+\tilde{\mathcal{G}}^{4}\alpha_{1}^{2}\alpha_{2xx}^{2}+\tilde{\mathcal{G}}^{4}\alpha_{1}^{2}\alpha_{2xy}^{2}\\
+\mathcal{D} & = & 1-2\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xx}+\tilde{\mathcal{G}}^{4}\alpha_{1}^{2}\left(\alpha_{2xx}^{2}+\alpha_{2xy}^{2}\right).
+\end{eqnarray}
+
+We can finally write:
+
+\begin{equation}
+\begin{bmatrix}\left[\mathbb{I}-\tilde{\mathcal{G}}\boldsymbol{\alpha}_{1}\tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}\right]^{-1} & \tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}\left[\mathbb{I}-\tilde{\mathcal{G}}\boldsymbol{\alpha}_{1}\tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}\right]^{-1}\\
+\tilde{\mathcal{G}}\boldsymbol{\alpha}_{1}\left[\mathbb{I}-\tilde{\mathcal{G}}\boldsymbol{\alpha}_{1}\tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}\right]^{-1} & \left[\mathbb{I}-\tilde{\mathcal{G}}\boldsymbol{\alpha}_{1}\tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}\right]^{-1}
+\end{bmatrix}=
+\end{equation}
+
+\begin{eqnarray}
+& = & \left[\begin{array}{cc}
+1-\tilde{\mathcal{G}}\alpha_{1}\alpha_{2xx} & \tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xx}\\
+-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xy} & 1-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xx}\\
+\tilde{\mathcal{G}}\alpha_{1}-\tilde{\mathcal{G}}^{3}\alpha_{1}^{2}\alpha_{2xx} & \tilde{\mathcal{G}}^{3}\alpha_{1}^{2}\alpha_{2xy}\\
+-\tilde{\mathcal{G}}^{3}\alpha_{1}^{2}\alpha_{2xy} & \tilde{\mathcal{G}}\alpha_{1}-\tilde{\mathcal{G}}^{3}\alpha_{1}^{2}\alpha_{2xx}
+\end{array}\right. \vdots \nonumber\\
+& &
+\vdots\left.\begin{array}{cc}
+\tilde{\mathcal{G}}\alpha_{2xx}-\tilde{\mathcal{G}}^{3}\alpha_{1}\alpha_{2xx}^{2}-\tilde{\mathcal{G}}^{3}\alpha_{1}\alpha_{2xy}^{2} & \tilde{\mathcal{G}}\alpha_{2xy}\\
+-\tilde{\mathcal{G}}\alpha_{2xy} & \tilde{\mathcal{G}}\alpha_{2xx}-\tilde{\mathcal{G}}^{3}\alpha_{1}\alpha_{2xy}^{2}-\tilde{\mathcal{G}}^{3}\alpha_{1}\alpha_{2xx}^{2}\\
+1-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xx} & \tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xy}\\
+-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xy} & 1-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xx}
+\end{array}\right]. \nonumber
+\end{eqnarray}
+So:
+
+\begin{equation}
+\begin{bmatrix}\mathbf{p}_{1}\\
+\mathbf{p}_{2}
+\end{bmatrix}=\epsilon_{0}\begin{bmatrix}\boldsymbol{\alpha}_{1} & 0\\
+0 & \boldsymbol{\alpha}_{2}
+\end{bmatrix}\begin{bmatrix}\mathbf{E}_{1}\\
+\mathbf{E}_{2}
+\end{bmatrix}=\epsilon_{0}\begin{bmatrix}\boldsymbol{\alpha}_{1} & 0\\
+0 & \boldsymbol{\alpha}_{2}
+\end{bmatrix}\begin{bmatrix}\mathbb{I} & -\tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}\\
+-\tilde{\mathcal{G}}\boldsymbol{\alpha}_{1} & \mathbb{I}
+\end{bmatrix}\begin{bmatrix}\mathbf{E}_{1}\\
+\mathbf{E}_{2}
+\end{bmatrix}\nonumber
+\end{equation}
+
+Considering Eq. (\ref{Eq:app_D10}) in the previous equation, we obtain:
+
+\begin{equation}
+\begin{bmatrix}\mathbf{p}_{1}\\
+\mathbf{p}_{2}
+\end{bmatrix}=\epsilon_{0}\begin{bmatrix}\boldsymbol{\alpha}_{1} & 0\\
+0 & \boldsymbol{\alpha}_{2}
+\end{bmatrix}\begin{bmatrix}\mathbb{I} & -\tilde{\mathcal{G}}\boldsymbol{\alpha}_{2}\\
+-\tilde{\mathcal{G}}\boldsymbol{\alpha}_{1} & \mathbb{I}
+\end{bmatrix}^{-1}\left[\begin{array}{c}
+\mathbf{E}_{0,1}\\
+\mathbf{E}_{0,2}
+\end{array}\right].\nonumber
+\end{equation}
+
+\[
+\begin{bmatrix}\mathbf{p}_{1}\\
+\mathbf{p}_{2}
+\end{bmatrix}=\frac{\epsilon_{0}}{\mathcal{D}}\left[\begin{array}{c}
+\alpha_{1}\left(1-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xx}\right)\\
+-\tilde{\mathcal{G}}^{2}\alpha_{1}^{2}\alpha_{2xy}\\
+\tilde{\mathcal{G}}\alpha_{1}\left[\alpha_{2xx}-\tilde{\mathcal{G}}^{2}\alpha_{1}\left(\alpha_{2xx}^{2}+\alpha_{2xy}^{2}\right)\right]\\
+-\tilde{\mathcal{G}}\alpha_{1}\alpha_{2xy}
+\end{array}\vdots\right.
+\]
+
+\[
+\vdots\begin{array}{c}
+\tilde{\mathcal{G}}^{2}\alpha_{1}^{2}\alpha_{2xy}\\
+\alpha_{1}-\tilde{\mathcal{G}}^{2}\alpha_{1}^{2}\alpha_{2xx}\\
+\tilde{\mathcal{G}}\alpha_{1}\alpha_{2xy}\\
+\tilde{\mathcal{G}}\alpha_{1}\left[\alpha_{2xx}-\tilde{\mathcal{G}}^{2}\alpha_{1}\left(\alpha_{2xx}^{2}+\alpha_{2xy}^{2}\right)\right]
+\end{array}\vdots
+\]
+
+\[
+\vdots\begin{array}{c}
+\tilde{\mathcal{G}}\alpha_{1}\left[\alpha_{2xx}-\tilde{\mathcal{G}}^{2}\alpha_{1}\left(\alpha_{2xx}^{2}+\alpha_{2xy}^{2}\right)\right]\\
+-\tilde{\mathcal{G}}\alpha_{1}\alpha_{2xy}\\
+\left[\alpha_{2xx}-\tilde{\mathcal{G}}^{2}\alpha_{1}\left(\alpha_{2xx}^{2}+\alpha_{2xy}^{2}\right)\right]\\
+-\alpha_{2xy}
+\end{array}\vdots
+\]
+
+\[
+\left.\vdots\begin{array}{c}
+\tilde{\mathcal{G}}\alpha_{1}\alpha_{2xy}\\
+\tilde{\mathcal{G}}\alpha_{1}\left[\alpha_{2xx}-\tilde{\mathcal{G}}^{2}\alpha_{1}\left(\alpha_{2xx}^{2}+\alpha_{2xy}^{2}\right)\right]\\
+\alpha_{2xy}\\
+\left[\alpha_{2xx}-\tilde{\mathcal{G}}^{2}\alpha_{1}\left(\alpha_{2xx}^{2}+\alpha_{2xy}^{2}\right)\right]
+\end{array}\right]\begin{bmatrix}E_{0,1x}\\
+E_{0,1y}\\
+E_{0,2x}\\
+E_{0,2y}
+\end{bmatrix}.
+\]
+
+So, we can write the polarisation as:
+
+\[
+\begin{cases}
+p_{1x}= & \frac{\epsilon_{0}}{\mathcal{D}}\left[\alpha_{1}\left(1-\tilde{\mathcal{G}}^{2}\alpha_{1}\alpha_{2xx}\right)E_{0,1x}+\left(\tilde{\mathcal{G}}^{2}\alpha_{1}^{2}\alpha_{2xy}\right)E_{0,1y}+\right.\\
+ & \left.+\tilde{\mathcal{G}}\alpha_{1}\left[\alpha_{2xx}-\tilde{\mathcal{G}}^{2}\alpha_{1}\left(\alpha_{2xx}^{2}+\alpha_{2xy}^{2}\right)\right]E_{0,2x}+\tilde{\mathcal{G}}\alpha_{1}\alpha_{2xy}E_{0,2y}\right]\\
+p_{1y}= & \frac{\epsilon_{0}}{\mathcal{D}}\left[-\tilde{\mathcal{G}}^{2}\alpha_{1}^{2}\alpha_{2xy}E_{0,1x}+\left(\alpha_{1}-\tilde{\mathcal{G}}^{2}\alpha_{1}^{2}\alpha_{2xx}\right)E_{0,1y}-\right.\\
+ & \left.-\tilde{\mathcal{G}}\alpha_{1}\alpha_{2xy}E_{0,2x}+\tilde{\mathcal{G}}\alpha_{1}\left[\alpha_{2xx}-\tilde{\mathcal{G}}^{2}\alpha_{1}\left(\alpha_{2xx}^{2}+\alpha_{2xy}^{2}\right)\right]E_{0,2y}\right]\\
+p_{2x}= & \frac{\epsilon_{0}}{\mathcal{D}}\left[\tilde{\mathcal{G}}\alpha_{1}\left[\alpha_{2xx}-\tilde{\mathcal{G}}^{2}\alpha_{1}\left(\alpha_{2xx}^{2}+\alpha_{2xy}^{2}\right)\right]E_{0,1x}+\tilde{\mathcal{G}}\alpha_{1}\alpha_{2xy}E_{0,1y}+\right.\\
+ & \left.+\left[\alpha_{2xx}-\tilde{\mathcal{G}}^{2}\alpha_{1}\left(\alpha_{2xx}^{2}+\alpha_{2xy}^{2}\right)\right]E_{0,2x}+\alpha_{2xy}E_{0,2y}\right]\\
+p_{2y}= & \frac{\epsilon_{0}}{\mathcal{D}}\left[-\tilde{\mathcal{G}}\alpha_{1}\alpha_{2xy}E_{0,1x}+\tilde{\mathcal{G}}\alpha_{1}\left[\alpha_{2xx}-\tilde{\mathcal{G}}^{2}\alpha_{1}\left(\alpha_{2xx}^{2}+\alpha_{2xy}^{2}\right)\right]E_{0,1y}+\right.\\
+ & \left.-\alpha_{2xy}E_{0,2x}+\left[\alpha_{2xx}-\tilde{\mathcal{G}}^{2}\alpha_{1}\left(\alpha_{2xx}^{2}+\alpha_{2xy}^{2}\right)\right]E_{0,2y}\right],
+\end{cases}
+\]
+and finally we obtain:
+
+\[
+\begin{cases}
+p_{1x}= & \epsilon_{0}\frac{E_{0,1x}}{\mathcal{D}}\alpha_{1}\left[1+k^2\mathcal{G}\alpha_{2xx}\left[e^{i\delta}-k^2\mathcal{G}\alpha_{1}\right]-k^6\mathcal{G}^{3}\alpha_{1}\left(\alpha_{2xx}^{2}+\alpha_{2xy}^{2}\right)e^{i\delta}\right]\\
+p_{1y}= & -\epsilon_{0}\frac{E_{0,1x}}{\mathcal{D}}k^2\mathcal{G}\alpha_{1}\alpha_{2xy}\left[k^2\mathcal{G}\alpha_{1}+e^{i\delta}\right]\\
+p_{2x}= & \epsilon_{0}\frac{E_{0,1x}}{\mathcal{D}}\left[\alpha_{2xx}-k^4\mathcal{G}^{2}\alpha_{1}\left(\alpha_{2xx}^{2}+\alpha_{2xy}^{2}\right)\right]\left[k^2\mathcal{G}\alpha_{1}+e^{i\delta}\right]\\
+p_{2y}= & -\epsilon_{0}\frac{E_{0,1x}}{\mathcal{D}}\alpha_{2xy}\left[k^2\mathcal{G}\alpha_{1}+e^{i\delta}\right],
+\end{cases}
+\]
+with where $\mathcal{D} = 1 - 2k^4\mathcal{G}^2\alpha_{1}\alpha_{2xx}+k^8\mathcal{G}^4\alpha_1^2\left(\alpha_{2xx}^2+ \alpha_{2xy}^2\right)$.

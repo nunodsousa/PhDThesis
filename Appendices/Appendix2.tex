@@ -1,0 +1,40 @@
+\chapter{Optical theorem for anisotropic particles}
+
+Let us consider an anisotropic particle with radius $a$ characterised by a linear non-magnetic material with dielectric tensor $\mathbf{\epsilon}$.
+For a harmonic fields, the electric displacement $\mathbf{D}$ inside of the particle is related with the electric field $\mathbf{E}$ through the expression $\mathbf{D}=\epsilon_{0}\boldsymbol{\epsilon}\left(\omega\right)\mathbf{E}$ and the magnetic field $\mathbf{H}=\epsilon_{0}c^2\mathbf{B}$, where $c$ is the speed of light in vacuum.\\
+For Rayleigh particles ($a\ll \lambda$), the electric field induces a dipole  $\boldsymbol{\mu}=\epsilon_{0}\boldsymbol{\alpha}\left(\omega\right)\mathbf{E}_{0}$ where $\boldsymbol{\alpha}\left(\omega\right)$ is the polarisability tensor.\\
+The optical theorem for anisotropic particles is deduced from the Poynting's theorem for harmonic fields: the time-average rate of work done by the external field $\mathbf{E}_{0}$ in the volume $V$ is equivalent to the sum of the dissipated and radiated powers:
+
+\begin{equation}
+\frac{1}{2}\Re\left\{\int_{V}\mathbf{J}^{*}\cdot\mathbf{E}_{0}d^3\mathbf{r}\right\}=P_{dis}+P_{rad} = P_{dis} + \frac{1}{2}\Re{\oint_{S} \mathbf{E}_{s}\times \mathbf{H}_{s}^{*}\cdot \mathbf{n}d\mathbf{s}},
+\end{equation}
+
+where $\mathbf{E}_{s}$ and $\mathbf{H}_{s}$ are the scattered fields.
+The current density for dielectric particles is proportional to the polarisation vector $\mathbf{P}$ such that $\mathbf{J}=-i\omega\mathbf{P}$.\\
+If the particle is uniformly polarised, $\mathbf{P}=\boldsymbol{\mu}/v=\epsilon_{0}\boldsymbol{\alpha}\mathbf{E}_{0}/v$, and we have:
+
+\begin{eqnarray}
+\frac{1}{2}\omega \Im\left\{\mathbf{E}_{0}^{\dagger}\cdot\boldsymbol{\mu}\right\}& = & P_{dis} + \frac{ck^4}{12\pi\epsilon_{0}}\left|\boldsymbol{\mu}\right|^2 = \\
+\frac{1}{2}\omega \epsilon_{0} \Im\left\{\mathbf{E}_{0}^{\dagger}\boldsymbol{\alpha}\mathbf{E}_{0}\right\}& = & P_{dis} + \frac{ck^4}{12\pi}\epsilon_{0}\mathbf{E}_{0}^{\dagger}\boldsymbol{\alpha}^{\dagger}\boldsymbol{\alpha}\mathbf{E}_{0},
+\end{eqnarray}
+
+where we use the result of the total power radiated by a dipole obtained in Appendix (\ref{App:eval_green_source}). In the absence of absorption:
+
+\begin{equation}
+\frac{k^3}{6\pi}\mathbf{E}_{0}^{\dagger}\boldsymbol{\alpha}^{\dagger}\boldsymbol{\alpha}\mathbf{E}_{0} = \Im\left\{\mathbf{E}_{0}^{\dagger}\boldsymbol{\alpha}\mathbf{E}_{0}\right\} = \Im\left\{\mathbf{E}_{0}^{\dagger}\left[\boldsymbol{\alpha}^{\dagger}\left(\boldsymbol{\alpha}^{\dagger}\right)^{-1}\right]\boldsymbol{\alpha}\mathbf{E}_{0}\right\},
+\end{equation}
+
+which can be written as:
+
+\begin{equation}
+\Im\left[\boldsymbol{\mu}^{\dagger}\mathbf{M}\boldsymbol{\mu}\right]= 0;\qquad \mathbf{M}\equiv\left[\left[\boldsymbol{\alpha}^{\dagger}\right]^{-1}-i\frac{k^3}{6\pi}\mathbb{I}\right].
+\end{equation}
+
+
+The $\mathbf{M}$ should be hermitic, $\mathbf{M}=\mathbf{M}^{\dagger}$, since the expression should hold for any $\boldsymbol{\mu}$. In the absence of absorption the inverse of the polarisability will be:
+
+\begin{equation}
+\boldsymbol{\alpha}^{-1} = \mathbf{M} -i\frac{k^3}{6\pi}\mathbb{I}.
+\end{equation}
+
+where $\mathbf{M}$ is and arbitrary hermitic matrix. This equation represents the optical theorem for an non-absolving anisotropic particles.

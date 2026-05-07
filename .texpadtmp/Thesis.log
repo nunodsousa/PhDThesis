@@ -1,0 +1,2286 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.4)  3 AUG 2015 11:58
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Thesis.tex
+(./Thesis.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./NunoThesis.sty
+----------------------------------------------------
+USING deSOUSA PhD TEMPLATE 1.0
+----------------------------------------------------
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2014/04/30 v1.2b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/umlaute/isolatin.def
+File: isolatin.def 2006/01/29 v2.1 Input encoding file (AS)
+
+
+Package umlaute Warning: Thisinputencodinghasbeensuperseededbythe`latin1'encodi
+ng on input line 31.
+
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2014/04/30 v1.2b Input encoding file
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/03/24 3.9k The Babel package
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/03/24 3.9k Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count89
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen106
+\captionmargin@=\dimen107
+\captionwidth=\dimen108
+\caption@tempdima=\dimen109
+\caption@indent=\dimen110
+\caption@parindent=\dimen111
+\caption@hangindent=\dimen112
+)
+\c@ContinuedFloat=\count90
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/varioref.sty
+Package: varioref 2011/10/02 v1.4z package for extended references (FMi)
+\c@vrcnt=\count91
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen113
+\Hy@linkcounter=\count92
+\Hy@pagecounter=\count93
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count94
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count95
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen114
+\Fld@menulength=\count96
+\Field@Width=\dimen115
+\Fld@charsize=\dimen116
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count97
+\c@Item=\count98
+\c@Hfootnote=\count99
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count100
+\c@bookmark@seq@number=\count101
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip52
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks17
+\verbatim@line=\toks18
+\verbatim@in@stream=\read1
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fourier/fourier-orns.sty
+Package: fourier-orns 2004/01/30 1.1 fourier-ornaments package
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count102
+\float@exts=\toks19
+\float@box=\box26
+\@float@everytoks=\toks20
+\@floatcapt=\box27
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count103
+\calc@Bcount=\count104
+\calc@Adimen=\dimen117
+\calc@Bdimen=\dimen118
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count105
+\calc@Cskip=\skip55
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box28
+\AM@toc@title=\toks21
+\c@AM@survey=\count106
+\AM@templatesizebox=\box29
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip56
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks22
+\ex@=\dimen119
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen120
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count107
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count108
+\leftroot@=\count109
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count110
+\DOTSCASE@=\count111
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen121
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count112
+\c@MaxMatrixCols=\count113
+\dotsspace@=\muskip11
+\c@parentequation=\count114
+\dspbrk@lvl=\count115
+\tag@help=\toks23
+\row@=\count116
+\column@=\count117
+\maxfields@=\count118
+\andhelp@=\toks24
+\eqnshift@=\dimen122
+\alignsep@=\dimen123
+\tagshift@=\dimen124
+\tagwidth@=\dimen125
+\totwidth@=\dimen126
+\lineht@=\dimen127
+\@envbody=\toks25
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/eepic/epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count119
+\d@lta=\count120
+\@delta=\dimen128
+\@@delta=\dimen129
+\@gridcnt=\count121
+\@joinkind=\count122
+\@dotgap=\dimen130
+\@ddotgap=\dimen131
+\@x@diff=\count123
+\@y@diff=\count124
+\x@diff=\dimen132
+\y@diff=\dimen133
+\@dotbox=\box32
+\num@segments=\count125
+\num@segmentsi=\count126
+\@datafile=\read2
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/eepic/eepic.sty
+Extension to Epic and LaTeX. Version 1.1e - Released Dec 21, 1999
+\@gphlinewidth=\count127
+\@eepictcnt=\count128
+\@tempdimc=\dimen134
+\maxovaldiam=\dimen135
+\@filltype=\box33
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen136
+\epsfysize=\dimen137
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psfrag/psfrag.sty
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count129
+\pfg@scount=\count130
+\pfg@temp=\write3
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/theorem.sty
+Package: theorem 1995/11/23 v2.2c Theorem extension package (FMi)
+\theorem@style=\toks27
+\theorem@bodyfont=\toks28
+\theorempreskipamount=\skip59
+\theorempostskipamount=\skip60
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/thp.sty
+File: thp.sty 1995/11/23 v2.2c Theorem extension package (FMi)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup7
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip61
+\bibsep=\skip62
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count131
+)
+\c@lemma=\count132
+\c@example=\count133
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 37.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 37.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 37.
+Package hyperref Info: Option `plainpages' set `false' on input line 37.
+
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/Thesis.aux
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/chapter_1/Chapter1.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/chapter_2/Chapter2.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/part_1/part1.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/chapter_3/Chapter3.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/chapter_4/Chapter4.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/chapter_5/Chapter5.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/part_2/part2.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/chapter_6/Chapter6.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/chapter_7/Chapter7.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/chapter_8/Chapter8.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/chapter_9/Chapter9.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/appendices/Appendix1.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/appendices/Appendix2.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/appendices/Appendix3.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/appendices/Appendix4.aux
+
+LaTeX Warning: Label `eq:app4_common_matrix' multiply defined.
+
+) (/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/appendices/Appendix5.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/appendices/Conclusiones_gene
+rales.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/appendices/List_of_publicati
+ons.aux)
+
+/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/Thesis.aux:339: Package natbi
+b Error: Bibliography not compatible with author-year citations.
+(natbib)                Press <return> to continue in numerical citation style.
+
+
+See the natbib package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.339 ...and\NAT@force@numbers{}\NAT@force@numbers
+                                                  
+Check the bibliography entries for non-compliant syntax,
+or select author-year BibTeX style, e.g. plainnat
+
+)
+\openout1 = `Thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+ (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count134
+\scratchdimen=\dimen138
+\scratchbox=\box34
+\nofMPsegments=\count135
+\nofMParguments=\count136
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count137
+\MPscratchDim=\dimen139
+\MPnumerator=\count138
+\makeMPintoPDFobject=\count139
+\everyMPtoPDFconversion=\toks30
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \celsius on input line 48.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 48.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 48.
+Package gensymb Info: Using \Omega for \ohm on input line 48.
+
+Package gensymb Warning: Not defining \micro.
+
+\AtBeginShipoutBox=\box35
+Package hyperref Info: Link coloring OFF on input line 48.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count140
+LaTeX Info: Redefining \Ref on input line 513.
+)
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
+
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/Thesis.out)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/Thesis.out)
+\@outlinefile=\write4
+\openout4 = `Thesis.out'.
+
+LaTeX Info: Redefining \Ref on input line 48.
+
+<figures/cover.pdf, id=289, 512.03294pt x 711.49818pt>
+File: figures/cover.pdf Graphic file (type pdf)
+ <use figures/cover.pdf>
+Package pdftex.def Info: figures/cover.pdf used on input line 49.
+(pdftex.def)             Requested size: 512.03168pt x 711.49644pt.
+File: figures/cover.pdf Graphic file (type pdf)
+
+<use figures/cover.pdf>
+Package pdftex.def Info: figures/cover.pdf used on input line 49.
+(pdftex.def)             Requested size: 512.03168pt x 711.49644pt.
+
+<figures/cover.pdf, id=292, page=1, 512.03294pt x 711.49818pt>
+File: figures/cover.pdf Graphic file (type pdf)
+
+<use figures/cover.pdf, page 1>
+Package pdftex.def Info: figures/cover.pdf, page1 used on input line 49.
+(pdftex.def)             Requested size: 512.03168pt x 711.49644pt.
+File: figures/cover.pdf Graphic file (type pdf)
+ <use figures/cover.pdf, page 1>
+Package pdftex.def Info: figures/cover.pdf, page1 used on input line 49.
+(pdftex.def)             Requested size: 500.7966pt x 695.88469pt.
+File: figures/cover.pdf Graphic file (type pdf)
+
+<use figures/cover.pdf, page 1>
+Package pdftex.def Info: figures/cover.pdf, page1 used on input line 49.
+(pdftex.def)             Requested size: 500.7966pt x 695.88469pt.
+File: figures/cover.pdf Graphic file (type pdf)
+ <use figures/cover.pdf, page 1>
+Package pdftex.def Info: figures/cover.pdf, page1 used on input line 49.
+(pdftex.def)             Requested size: 500.7966pt x 695.88469pt.
+File: figures/cover.pdf Graphic file (type pdf)
+
+<use figures/cover.pdf, page 1>
+Package pdftex.def Info: figures/cover.pdf, page1 used on input line 49.
+(pdftex.def)             Requested size: 500.7966pt x 695.88469pt.
+ [1
+Non-PDF special ignored!
+
+
+Non-PDF special ignored! <./figures/cover.pdf>] [2]
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 55.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+<figures/join.jpg, id=318, 1663.21375pt x 457.71pt>
+File: figures/join.jpg Graphic file (type jpg)
+ <use figures/join.jpg>
+Package pdftex.def Info: figures/join.jpg used on input line 55.
+(pdftex.def)             Requested size: 316.0139pt x 86.9658pt.
+
+[1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fig
+ures/join.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 55--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--59
+
+ []
+
+[2] [1
+
+] (./summaries/SummaryUK.tex [2]
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 1.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 1.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+Underfull \hbox (badness 10000) in paragraph at lines 4--15
+
+ []
+
+[3
+
+]) (./summaries/SummaryES.tex [4]) (./acknowledgements/Acknowledgements.tex
+[5
+
+] [6] [7
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+<figures/Signature.pdf, id=368, 1389.75215pt x 565.15138pt>
+File: figures/Signature.pdf Graphic file (type pdf)
+
+<use figures/Signature.pdf>
+Package pdftex.def Info: figures/Signature.pdf used on input line 39.
+(pdftex.def)             Requested size: 138.98335pt x 56.51845pt.
+) [9 <./figures/Signature.pdf>] [10]
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/Thesis.toc
+Overfull \hbox (27.50356pt too wide) in paragraph at lines 26--26
+  [][]\T1/cmr/bx/n/10 Mimicking elec-tro-mag-net-ic-ally in-duced trans-par-enc
+y in the magneto- 
+ []
+
+[11
+
+] [12])
+\tf@toc=\write5
+\openout5 = `Thesis.toc'.
+
+ [13] [14
+
+]
+\openout2 = `chapter_1/Chapter1.aux'.
+
+ (./chapter_1/Chapter1.tex
+Chapter 1.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 
+      [1
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 
+      [2] [3]
+
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
+d on input line 50.
+
+[4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 62.
+
+[6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--90
+
+ []
+
+[8]
+Overfull \hbox (4.50082pt too wide) in paragraph at lines 99--101
+\T1/cmr/m/n/10 particles char-ac-ter-ised by their cor-res-pond-ing dielec-tric
+ tensor, shape and volume.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
+
+ []
+
+) [9]
+\openout2 = `chapter_2/Chapter2.aux'.
+
+ (./chapter_2/Chapter2.tex [10
+
+
+
+]
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+[11] [12] [13] [14]
+<chapter_2/figures/DDA.png, id=809, 570.933pt x 224.88016pt>
+File: chapter_2/figures/DDA.png Graphic file (type png)
+
+<use chapter_2/figures/DDA.png>
+Package pdftex.def Info: chapter_2/figures/DDA.png used on input line 132.
+(pdftex.def)             Requested size: 284.52756pt x 112.07263pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15] [16 <./chapter_2/figures/DDA.png>] [17] [18] [19] [20] [21]
+<chapter_2/figures/kerr_configurations.png, id=910, 473.00716pt x 144.54pt>
+File: chapter_2/figures/kerr_configurations.png Graphic file (type png)
+
+<use chapter_2/figures/kerr_configurations.png>
+Package pdftex.def Info: chapter_2/figures/kerr_configurations.png used on inpu
+t line 342.
+(pdftex.def)             Requested size: 341.43306pt x 104.33336pt.
+
+Underfull \vbox (badness 5878) has occurred while \output is active []
+
+ [22 <./chapter_2/figures/kerr_configurations.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 375.
+
+[23] [24]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 407.
+
+<chapter_2/figures/inh_envirnm.png, id=954, 1643.13875pt x 1606.0pt>
+File: chapter_2/figures/inh_envirnm.png Graphic file (type png)
+
+<use chapter_2/figures/inh_envirnm.png>
+Package pdftex.def Info: chapter_2/figures/inh_envirnm.png used on input line 4
+20.
+(pdftex.def)             Requested size: 170.71652pt x 166.85832pt.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 422.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 422.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 1205) has occurred while \output is active []
+
+ [25]
+[26 <./chapter_2/figures/inh_envirnm.png>]
+Overfull \hbox (5.8616pt too wide) in paragraph at lines 477--480
+\T1/cmr/m/n/10 In this chapter we sum-mar-ise the fun-da-mental tools used in t
+he fol-low-ing chapters. 
+ []
+
+
+Overfull \hbox (6.77805pt too wide) in paragraph at lines 477--480
+\T1/cmr/m/n/10 We have in-tro-duced a clas-sical form-al-ism that de-scribes th
+e in-ter-ac-tion of nanosys-
+ []
+
+) [27]
+\openout2 = `part_1/part1.aux'.
+
+ (./part_1/part1.tex [28
+
+
+
+] [29] [30])
+\openout2 = `chapter_3/Chapter3.aux'.
+
+ (./chapter_3/Chapter3.tex
+Chapter 3.
+[31
+
+
+
+] <chapter_3/schemes/Fig_1.png, id=1054, 1399.2275pt x 785.93625pt>
+File: chapter_3/schemes/Fig_1.png Graphic file (type png)
+
+<use chapter_3/schemes/Fig_1.png>
+Package pdftex.def Info: chapter_3/schemes/Fig_1.png used on input line 18.
+(pdftex.def)             Requested size: 341.43306pt x 191.77055pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33]
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34 <./chapter_3/schemes/Fig_1.png>]
+Overfull \hbox (13.19902pt too wide) in alignment at lines 72--87
+ [][][] []
+ []
+
+
+Overfull \hbox (7.16763pt too wide) in paragraph at lines 103--107
+\T1/cmr/m/n/10 where $\OMS/cmsy/m/n/10 D \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 ![]
+ \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 2 [] \OML/cmm/m/it/10 ![] [] \OT1/cmr/m/n
+/10 + [] [][]$\T1/cmr/m/n/10 .
+ []
+
+<chapter_3/graphics/Fig_6.png, id=1092, 1907.125pt x 894.34125pt>
+File: chapter_3/graphics/Fig_6.png Graphic file (type png)
+
+<use chapter_3/graphics/Fig_6.png>
+Package pdftex.def Info: chapter_3/graphics/Fig_6.png used on input line 111.
+(pdftex.def)             Requested size: 341.43306pt x 160.11475pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[35]
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36 <./chapter_3/graphics/Fig_6.png>] [37]
+<chapter_3/graphics/Fig_7.png, id=1128, 1870.99pt x 843.15pt>
+File: chapter_3/graphics/Fig_7.png Graphic file (type png)
+
+<use chapter_3/graphics/Fig_7.png>
+Package pdftex.def Info: chapter_3/graphics/Fig_7.png used on input line 195.
+(pdftex.def)             Requested size: 341.43306pt x 153.85751pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38 <./chapter_3/graphics/Fig_7.png>]
+Overfull \hbox (12.66692pt too wide) in paragraph at lines 203--203
+[]\T1/cmr/bx/n/14.4 Optical and magneto-optical re-sponse of nanor-
+ []
+
+<chapter_3/graphics/Fig_2.png, id=1152, 805.0075pt x 696.6025pt>
+File: chapter_3/graphics/Fig_2.png Graphic file (type png)
+
+<use chapter_3/graphics/Fig_2.png>
+Package pdftex.def Info: chapter_3/graphics/Fig_2.png used on input line 209.
+(pdftex.def)             Requested size: 284.52756pt x 246.20612pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+
+ []
+
+[39] <chapter_3/graphics/Fig_3.png, id=1164, 742.775pt x 1132.23pt>
+File: chapter_3/graphics/Fig_3.png Graphic file (type png)
+
+<use chapter_3/graphics/Fig_3.png>
+Package pdftex.def Info: chapter_3/graphics/Fig_3.png used on input line 218.
+(pdftex.def)             Requested size: 227.62204pt x 346.96227pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 2012) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40 <./chapter_3/graphics/Fig_2.png>] [41 <./chapter_3/graphics/Fig_3.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42] <chapter_3/graphics/Fig_4.png, id=1199, 1235.61626pt x 820.06375pt>
+File: chapter_3/graphics/Fig_4.png Graphic file (type png)
+
+<use chapter_3/graphics/Fig_4.png>
+Package pdftex.def Info: chapter_3/graphics/Fig_4.png used on input line 229.
+(pdftex.def)             Requested size: 341.43306pt x 226.60062pt.
+ [43 <./chapter_3/graphics/Fig_4.png>]
+<chapter_3/graphics/Fig_5.png, id=1212, 759.83875pt x 1085.05376pt>
+File: chapter_3/graphics/Fig_5.png Graphic file (type png)
+
+<use chapter_3/graphics/Fig_5.png>
+Package pdftex.def Info: chapter_3/graphics/Fig_5.png used on input line 244.
+(pdftex.def)             Requested size: 227.62204pt x 325.0385pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46 <./chapter_3/graphics/Fig_5.png>]) [47]
+\openout2 = `chapter_4/Chapter4.aux'.
+
+ (./chapter_4/Chapter4.tex
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48
+
+
+
+]
+Chapter 4.
+[49]
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50] <chapter_4/schemes/F1_join_aR1.png, id=1268, 3854.4pt x 1027.84pt>
+File: chapter_4/schemes/F1_join_aR1.png Graphic file (type png)
+
+<use chapter_4/schemes/F1_join_aR1.png>
+Package pdftex.def Info: chapter_4/schemes/F1_join_aR1.png used on input line 2
+1.
+(pdftex.def)             Requested size: 345.30264pt x 92.07814pt.
+ [51 <./chapter_4/schemes/F1_join_aR1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+
+ []
+
+
+Overfull \hbox (12.27649pt too wide) in alignment at lines 68--73
+ [][][] []
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[52] <chapter_4/graphics/F2_lowMO.png, id=1288, 4015.0pt x 2559.5625pt>
+File: chapter_4/graphics/F2_lowMO.png Graphic file (type png)
+
+<use chapter_4/graphics/F2_lowMO.png>
+Package pdftex.def Info: chapter_4/graphics/F2_lowMO.png used on input line 85.
+
+(pdftex.def)             Requested size: 345.30264pt x 220.11809pt.
+
+Overfull \hbox (7.24643pt too wide) in paragraph at lines 83--94
+\T1/cmr/m/n/10 ($\OT1/cmr/m/n/10 740\OML/cmm/m/it/10 nm$\T1/cmr/m/n/10 ) and hi
+gh-energy ($\OT1/cmr/m/n/10 620\OML/cmm/m/it/10 nm$\T1/cmr/m/n/10 ) modes of an
+-ti-sym-met-ric and sym-met-ric nature,
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[54 <./chapter_4/graphics/F2_lowMO.png>]
+<chapter_4/graphics/F3_highMO.png, id=1316, 963.6pt x 614.295pt>
+File: chapter_4/graphics/F3_highMO.png Graphic file (type png)
+
+<use chapter_4/graphics/F3_highMO.png>
+Package pdftex.def Info: chapter_4/graphics/F3_highMO.png used on input line 96
+.
+(pdftex.def)             Requested size: 345.30264pt x 220.12433pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55]
+Underfull \vbox (badness 2922) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[56 <./chapter_4/graphics/F3_highMO.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+<chapter_4/graphics/F4_MOA_3x3_finalR1.png, id=1340, 722.7pt x 555.7563pt>
+File: chapter_4/graphics/F4_MOA_3x3_finalR1.png Graphic file (type png)
+
+<use chapter_4/graphics/F4_MOA_3x3_finalR1.png>
+Package pdftex.def Info: chapter_4/graphics/F4_MOA_3x3_finalR1.png used on inpu
+t line 111.
+(pdftex.def)             Requested size: 345.30264pt x 265.53885pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[58] [59 <./chapter_4/graphics/F4_MOA_3x3_finalR1.png>])
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[60]
+\openout2 = `chapter_5/Chapter5.aux'.
+
+ (./chapter_5/Chapter5.tex
+Chapter 5.
+[61
+
+
+
+] [62]
+Overfull \hbox (6.69473pt too wide) in paragraph at lines 65--67
+\T1/cmr/m/n/10 where all ele-ments are dis-pers-ive and the ele-ments off-diago
+nal are anti-symmetric. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--67
+
+ []
+
+
+<Chapter_5/scheme/single_particle_emitter_II.png, id=1437, 1132.23pt x 988.6937
+6pt>
+File: Chapter_5/scheme/single_particle_emitter_II.png Graphic file (type png)
+ <use Chapter_5/scheme/single_particle_emitter_II.png>
+Package pdftex.def Info: Chapter_5/scheme/single_particle_emitter_II.png used o
+n input line 70.
+(pdftex.def)             Requested size: 227.62204pt x 198.76111pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[63]
+Underfull \vbox (badness 1831) has occurred while \output is active []
+
+ [64 <./Chapter_5/scheme/single_particle_emitter_II.png>] [65]
+Package epstopdf Info: Source file: <Chapter_5/plots/1_part_without_absorp/norm
+_decay_rate_vs_dist_noabs.eps>
+(epstopdf)                    date: 2014-07-24 16:49:44
+(epstopdf)                    size: 22210 bytes
+(epstopdf)             Output file: <Chapter_5/plots/1_part_without_absorp/norm
+_decay_rate_vs_dist_noabs-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-07-24 16:50:43
+(epstopdf)                    size: 12704 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chapter_5/plots/1_part_wit
+hout_absorp/norm_decay_rate_vs_dist_noabs-eps-converted-to.pdf Chapter_5/plots/
+1_part_without_absorp/norm_decay_rate_vs_dist_noabs.eps>
+(epstopdf)             \includegraphics on input line 143.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chapter_5/plots/1_part_without_absorp/norm_decay_rate_vs_dist_noabs-eps-conver
+ted-to.pdf, id=1470, 578.16pt x 762.85pt>
+File: Chapter_5/plots/1_part_without_absorp/norm_decay_rate_vs_dist_noabs-eps-c
+onverted-to.pdf Graphic file (type pdf)
+
+<use Chapter_5/plots/1_part_without_absorp/norm_decay_rate_vs_dist_noabs-eps-co
+nverted-to.pdf>
+Package pdftex.def Info: Chapter_5/plots/1_part_without_absorp/norm_decay_rate_
+vs_dist_noabs-eps-converted-to.pdf used on input line 143.
+(pdftex.def)             Requested size: 227.62204pt x 300.32721pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Chapter_5/plots/1_part_without_absorp/all_3d_without_absorp.png, id=1472, 246.
+6816pt x 273.54195pt>
+File: Chapter_5/plots/1_part_without_absorp/all_3d_without_absorp.png Graphic f
+ile (type png)
+
+<use Chapter_5/plots/1_part_without_absorp/all_3d_without_absorp.png>
+Package pdftex.def Info: Chapter_5/plots/1_part_without_absorp/all_3d_without_a
+bsorp.png used on input line 153.
+(pdftex.def)             Requested size: 327.20668pt x 362.87126pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[66] [67 <./Chapter_5/plots/1_part_without_absorp/norm_decay_rate_vs_dist_noabs
+-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Chapter_5/plots/1_part_with_absorp/norm_de
+cay_rate_vs_distance.eps>
+(epstopdf)                    date: 2014-05-07 19:55:38
+(epstopdf)                    size: 14324 bytes
+(epstopdf)             Output file: <Chapter_5/plots/1_part_with_absorp/norm_de
+cay_rate_vs_distance-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-07 19:56:10
+(epstopdf)                    size: 10543 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chapter_5/plots/1_part_wit
+h_absorp/norm_decay_rate_vs_distance-eps-converted-to.pdf Chapter_5/plots/1_par
+t_with_absorp/norm_decay_rate_vs_distance.eps>
+(epstopdf)             \includegraphics on input line 176.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chapter_5/plots/1_part_with_absorp/norm_decay_rate_vs_distance-eps-converted-t
+o.pdf, id=1501, 614.295pt x 794.97pt>
+File: Chapter_5/plots/1_part_with_absorp/norm_decay_rate_vs_distance-eps-conver
+ted-to.pdf Graphic file (type pdf)
+
+<use Chapter_5/plots/1_part_with_absorp/norm_decay_rate_vs_distance-eps-convert
+ed-to.pdf>
+Package pdftex.def Info: Chapter_5/plots/1_part_with_absorp/norm_decay_rate_vs_
+distance-eps-converted-to.pdf used on input line 176.
+(pdftex.def)             Requested size: 227.62204pt x 294.57098pt.
+
+Underfull \vbox (badness 7667) has occurred while \output is active []
+
+ [68 <./Chapter_5/plots/1_part_without_absorp/all_3d_without_absorp.png>]
+Package epstopdf Info: Source file: <Chapter_5/plots/1_part_with_absorp/norm_ra
+diated_decay_rate_vs_distance.eps>
+(epstopdf)                    date: 2014-09-04 12:06:37
+(epstopdf)                    size: 22672 bytes
+(epstopdf)             Output file: <Chapter_5/plots/1_part_with_absorp/norm_ra
+diated_decay_rate_vs_distance-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-09-04 12:07:46
+(epstopdf)                    size: 11726 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chapter_5/plots/1_part_wit
+h_absorp/norm_radiated_decay_rate_vs_distance-eps-converted-to.pdf Chapter_5/pl
+ots/1_part_with_absorp/norm_radiated_decay_rate_vs_distance.eps>
+(epstopdf)             \includegraphics on input line 185.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chapter_5/plots/1_part_with_absorp/norm_radiated_decay_rate_vs_distance-eps-co
+nverted-to.pdf, id=1509, 614.295pt x 794.97pt>
+File: Chapter_5/plots/1_part_with_absorp/norm_radiated_decay_rate_vs_distance-e
+ps-converted-to.pdf Graphic file (type pdf)
+
+<use Chapter_5/plots/1_part_with_absorp/norm_radiated_decay_rate_vs_distance-ep
+s-converted-to.pdf>
+Package pdftex.def Info: Chapter_5/plots/1_part_with_absorp/norm_radiated_decay
+_rate_vs_distance-eps-converted-to.pdf used on input line 185.
+(pdftex.def)             Requested size: 227.62204pt x 294.57098pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[69 <./Chapter_5/plots/1_part_with_absorp/norm_decay_rate_vs_distance-eps-conve
+rted-to.pdf>]
+<Chapter_5/plots/1_part_with_absorp/all_3d_with_absorp.png, id=1528, 246.6816pt
+ x 277.63725pt>
+File: Chapter_5/plots/1_part_with_absorp/all_3d_with_absorp.png Graphic file (t
+ype png)
+
+<use Chapter_5/plots/1_part_with_absorp/all_3d_with_absorp.png>
+Package pdftex.def Info: Chapter_5/plots/1_part_with_absorp/all_3d_with_absorp.
+png used on input line 200.
+(pdftex.def)             Requested size: 327.20668pt x 368.30394pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70 <./Chapter_5/plots/1_part_with_absorp/norm_radiated_decay_rate_vs_distance
+-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71 <./Chapter_5/plots/1_part_with_absorp/all_3d_with_absorp.png>]
+<Chapter_5/scheme/dual_particle_emitter_II.png, id=1548, 878.78313pt x 1169.368
+74pt>
+File: Chapter_5/scheme/dual_particle_emitter_II.png Graphic file (type png)
+ <use Chapter_5/scheme/dual_particle_emitter_II.png>
+Package pdftex.def Info: Chapter_5/scheme/dual_particle_emitter_II.png used on 
+input line 213.
+(pdftex.def)             Requested size: 199.16928pt x 265.02367pt.
+ [72 <./Chapter_5/scheme/dual_particle_emitter_II.png>] [73]
+Package epstopdf Info: Source file: <Chapter_5/plots/2_part_without_absorp/norm
+_decay_rate_vs_dist_noabs.eps>
+(epstopdf)                    date: 2014-05-07 19:46:51
+(epstopdf)                    size: 22603 bytes
+(epstopdf)             Output file: <Chapter_5/plots/2_part_without_absorp/norm
+_decay_rate_vs_dist_noabs-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-07 19:47:37
+(epstopdf)                    size: 11937 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chapter_5/plots/2_part_wit
+hout_absorp/norm_decay_rate_vs_dist_noabs-eps-converted-to.pdf Chapter_5/plots/
+2_part_without_absorp/norm_decay_rate_vs_dist_noabs.eps>
+(epstopdf)             \includegraphics on input line 262.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chapter_5/plots/2_part_without_absorp/norm_decay_rate_vs_dist_noabs-eps-conver
+ted-to.pdf, id=1569, 614.295pt x 794.97pt>
+File: Chapter_5/plots/2_part_without_absorp/norm_decay_rate_vs_dist_noabs-eps-c
+onverted-to.pdf Graphic file (type pdf)
+
+<use Chapter_5/plots/2_part_without_absorp/norm_decay_rate_vs_dist_noabs-eps-co
+nverted-to.pdf>
+Package pdftex.def Info: Chapter_5/plots/2_part_without_absorp/norm_decay_rate_
+vs_dist_noabs-eps-converted-to.pdf used on input line 262.
+(pdftex.def)             Requested size: 227.62204pt x 294.57098pt.
+
+<Chapter_5/plots/2_part_without_absorp/all_3d_without_absorp.png, id=1571, 246.
+6816pt x 256.67896pt>
+File: Chapter_5/plots/2_part_without_absorp/all_3d_without_absorp.png Graphic f
+ile (type png)
+
+<use Chapter_5/plots/2_part_without_absorp/all_3d_without_absorp.png>
+Package pdftex.def Info: Chapter_5/plots/2_part_without_absorp/all_3d_without_a
+bsorp.png used on input line 272.
+(pdftex.def)             Requested size: 284.52756pt x 296.08714pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 1043) has occurred while \output is active []
+
+ [74 <./Chapter_5/plots/2_part_without_absorp/norm_decay_rate_vs_dist_noabs-eps
+-converted-to.pdf>] [75 <./Chapter_5/plots/2_part_without_absorp/all_3d_without
+_absorp.png>]
+Package epstopdf Info: Source file: <Chapter_5/plots/2_part_with_absorp/norm_de
+cay_rate_vs_distance.eps>
+(epstopdf)                    date: 2014-05-13 00:32:50
+(epstopdf)                    size: 13880 bytes
+(epstopdf)             Output file: <Chapter_5/plots/2_part_with_absorp/norm_de
+cay_rate_vs_distance-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-13 00:34:05
+(epstopdf)                    size: 10392 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chapter_5/plots/2_part_wit
+h_absorp/norm_decay_rate_vs_distance-eps-converted-to.pdf Chapter_5/plots/2_par
+t_with_absorp/norm_decay_rate_vs_distance.eps>
+(epstopdf)             \includegraphics on input line 292.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chapter_5/plots/2_part_with_absorp/norm_decay_rate_vs_distance-eps-converted-t
+o.pdf, id=1593, 614.295pt x 794.97pt>
+File: Chapter_5/plots/2_part_with_absorp/norm_decay_rate_vs_distance-eps-conver
+ted-to.pdf Graphic file (type pdf)
+
+<use Chapter_5/plots/2_part_with_absorp/norm_decay_rate_vs_distance-eps-convert
+ed-to.pdf>
+Package pdftex.def Info: Chapter_5/plots/2_part_with_absorp/norm_decay_rate_vs_
+distance-eps-converted-to.pdf used on input line 292.
+(pdftex.def)             Requested size: 227.62204pt x 294.57098pt.
+Package epstopdf Info: Source file: <Chapter_5/plots/2_part_with_absorp/norm_ra
+diative_decay_rate_vs_distance.eps>
+(epstopdf)                    date: 2014-09-13 18:28:59
+(epstopdf)                    size: 22810 bytes
+(epstopdf)             Output file: <Chapter_5/plots/2_part_with_absorp/norm_ra
+diative_decay_rate_vs_distance-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-09-13 18:30:14
+(epstopdf)                    size: 12004 bytes
+(epstopdf)             Command: <repstopdf --outfile=Chapter_5/plots/2_part_wit
+h_absorp/norm_radiative_decay_rate_vs_distance-eps-converted-to.pdf Chapter_5/p
+lots/2_part_with_absorp/norm_radiative_decay_rate_vs_distance.eps>
+(epstopdf)             \includegraphics on input line 299.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chapter_5/plots/2_part_with_absorp/norm_radiative_decay_rate_vs_distance-eps-c
+onverted-to.pdf, id=1594, 614.295pt x 794.97pt>
+File: Chapter_5/plots/2_part_with_absorp/norm_radiative_decay_rate_vs_distance-
+eps-converted-to.pdf Graphic file (type pdf)
+
+<use Chapter_5/plots/2_part_with_absorp/norm_radiative_decay_rate_vs_distance-e
+ps-converted-to.pdf>
+Package pdftex.def Info: Chapter_5/plots/2_part_with_absorp/norm_radiative_deca
+y_rate_vs_distance-eps-converted-to.pdf used on input line 299.
+(pdftex.def)             Requested size: 227.62204pt x 294.57098pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Chapter_5/plots/2_part_with_absorp/all_3d_with_absorp.png, id=1595, 246.6816pt
+ x 238.2501pt>
+File: Chapter_5/plots/2_part_with_absorp/all_3d_with_absorp.png Graphic file (t
+ype png)
+ <use Chapter_5/plots/2_part_with_absorp/all_3d_with_absorp.png>
+Package pdftex.def Info: Chapter_5/plots/2_part_with_absorp/all_3d_with_absorp.
+png used on input line 307.
+(pdftex.def)             Requested size: 327.20668pt x 316.05432pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76 <./Chapter_5/plots/2_part_with_absorp/norm_decay_rate_vs_distance-eps-conv
+erted-to.pdf>] [77 <./Chapter_5/plots/2_part_with_absorp/norm_radiative_decay_r
+ate_vs_distance-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 325--330
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78 <./Chapter_5/plots/2_part_with_absorp/all_3d_with_absorp.png>]) [79]
+\openout2 = `part_2/part2.aux'.
+
+
+(./part_2/part2.tex [80
+
+
+
+] [81] [82])
+\openout2 = `chapter_6/Chapter6.aux'.
+
+ (./chapter_6/Chapter6.tex
+Chapter 6.
+[83
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[84]
+Package epstopdf Info: Source file: <chapter_6/figures/fig_1.eps>
+(epstopdf)                    date: 2014-01-14 17:07:08
+(epstopdf)                    size: 3435303 bytes
+(epstopdf)             Output file: <chapter_6/figures/fig_1-eps-converted-to.p
+df>
+(epstopdf)                    date: 2014-02-17 20:19:37
+(epstopdf)                    size: 426657 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapter_6/figures/fig_1-ep
+s-converted-to.pdf chapter_6/figures/fig_1.eps>
+(epstopdf)             \includegraphics on input line 35.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapter_6/figures/fig_1-eps-converted-to.pdf, id=1710, 558.085pt x 350.30875pt
+>
+File: chapter_6/figures/fig_1-eps-converted-to.pdf Graphic file (type pdf)
+ <use chapter_6/figures/fig_1-eps-converted-to.pdf>
+Package pdftex.def Info: chapter_6/figures/fig_1-eps-converted-to.pdf used on i
+nput line 35.
+(pdftex.def)             Requested size: 284.52756pt x 178.60164pt.
+
+
+Package amsmath Warning: Foreign command \atop;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 46.
+
+[85 <./chapter_6/figures/fig_1-eps-converted-to.pdf>]
+Underfull \vbox (badness 1210) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[86] [87]
+Package epstopdf Info: Source file: <chapter_6/figures/fig_2.eps>
+(epstopdf)                    date: 2014-01-14 17:06:52
+(epstopdf)                    size: 18492 bytes
+(epstopdf)             Output file: <chapter_6/figures/fig_2-eps-converted-to.p
+df>
+(epstopdf)                    date: 2014-02-17 20:19:38
+(epstopdf)                    size: 9223 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapter_6/figures/fig_2-ep
+s-converted-to.pdf chapter_6/figures/fig_2.eps>
+(epstopdf)             \includegraphics on input line 95.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapter_6/figures/fig_2-eps-converted-to.pdf, id=1749, 531.9875pt x 722.7pt>
+File: chapter_6/figures/fig_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use chapter_6/figures/fig_2-eps-converted-to.pdf>
+Package pdftex.def Info: chapter_6/figures/fig_2-eps-converted-to.pdf used on i
+nput line 95.
+(pdftex.def)             Requested size: 531.9862pt x 722.69823pt.
+Package epstopdf Info: Source file: <chapter_6/figures/fig_3.eps>
+(epstopdf)                    date: 2014-01-14 17:06:52
+(epstopdf)                    size: 80409 bytes
+(epstopdf)             Output file: <chapter_6/figures/fig_3-eps-converted-to.p
+df>
+(epstopdf)                    date: 2014-02-17 20:19:39
+(epstopdf)                    size: 18888 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapter_6/figures/fig_3-ep
+s-converted-to.pdf chapter_6/figures/fig_3.eps>
+(epstopdf)             \includegraphics on input line 106.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapter_6/figures/fig_3-eps-converted-to.pdf, id=1751, 614.295pt x 794.97pt>
+File: chapter_6/figures/fig_3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use chapter_6/figures/fig_3-eps-converted-to.pdf>
+Package pdftex.def Info: chapter_6/figures/fig_3-eps-converted-to.pdf used on i
+nput line 106.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[88 <./chapter_6/figures/fig_2-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <chapter_6/figures/fig_4.eps>
+(epstopdf)                    date: 2014-01-14 17:06:53
+(epstopdf)                    size: 32327 bytes
+(epstopdf)             Output file: <chapter_6/figures/fig_4-eps-converted-to.p
+df>
+(epstopdf)                    date: 2014-02-17 20:19:40
+(epstopdf)                    size: 13573 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapter_6/figures/fig_4-ep
+s-converted-to.pdf chapter_6/figures/fig_4.eps>
+(epstopdf)             \includegraphics on input line 118.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapter_6/figures/fig_4-eps-converted-to.pdf, id=1771, 614.295pt x 794.97pt>
+File: chapter_6/figures/fig_4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use chapter_6/figures/fig_4-eps-converted-to.pdf>
+Package pdftex.def Info: chapter_6/figures/fig_4-eps-converted-to.pdf used on i
+nput line 118.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <chapter_6/figures/fig_5.eps>
+(epstopdf)                    date: 2014-01-14 17:06:53
+(epstopdf)                    size: 2397766 bytes
+(epstopdf)             Output file: <chapter_6/figures/fig_5-eps-converted-to.p
+df>
+(epstopdf)                    date: 2014-02-17 20:19:41
+(epstopdf)                    size: 374122 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapter_6/figures/fig_5-ep
+s-converted-to.pdf chapter_6/figures/fig_5.eps>
+(epstopdf)             \includegraphics on input line 132.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapter_6/figures/fig_5-eps-converted-to.pdf, id=1774, 524.96124pt x 401.5pt>
+File: chapter_6/figures/fig_5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use chapter_6/figures/fig_5-eps-converted-to.pdf>
+Package pdftex.def Info: chapter_6/figures/fig_5-eps-converted-to.pdf used on i
+nput line 132.
+(pdftex.def)             Requested size: 400.61632pt x 306.41132pt.
+
+Overfull \hbox (55.31367pt too wide) in paragraph at lines 132--133
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89 <./chapter_6/figures/fig_3-eps-converted-to.pdf>]
+Underfull \vbox (badness 1917) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[90 <./chapter_6/figures/fig_4-eps-converted-to.pdf>] [91 <./chapter_6/figures/
+fig_5-eps-converted-to.pdf>])
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[92]
+\openout2 = `chapter_7/Chapter7.aux'.
+
+ (./chapter_7/Chapter7.tex
+Chapter 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
+
+ []
+
+[93
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[94] <chapter_7/figures/fig_1.png, id=1908, 1431.3475pt x 1475.5125pt>
+File: chapter_7/figures/fig_1.png Graphic file (type png)
+
+<use chapter_7/figures/fig_1.png>
+Package pdftex.def Info: chapter_7/figures/fig_1.png used on input line 29.
+(pdftex.def)             Requested size: 170.71652pt x 175.97316pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[95]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[96 <./chapter_7/figures/fig_1.png>]
+Package epstopdf Info: Source file: <chapter_7/figures/fig_2.eps>
+(epstopdf)                    date: 2014-08-19 12:27:05
+(epstopdf)                    size: 28866 bytes
+(epstopdf)             Output file: <chapter_7/figures/fig_2-eps-converted-to.p
+df>
+(epstopdf)                    date: 2014-08-19 12:27:50
+(epstopdf)                    size: 19231 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapter_7/figures/fig_2-ep
+s-converted-to.pdf chapter_7/figures/fig_2.eps>
+(epstopdf)             \includegraphics on input line 53.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapter_7/figures/fig_2-eps-converted-to.pdf, id=1924, 614.295pt x 794.97pt>
+File: chapter_7/figures/fig_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use chapter_7/figures/fig_2-eps-converted-to.pdf>
+Package pdftex.def Info: chapter_7/figures/fig_2-eps-converted-to.pdf used on i
+nput line 53.
+(pdftex.def)             Requested size: 241.8518pt x 312.9803pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+
+ []
+
+[97 <./chapter_7/figures/fig_2-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+Package epstopdf Info: Source file: <chapter_7/figures/fig_4_1.eps>
+(epstopdf)                    date: 2014-09-12 08:10:27
+(epstopdf)                    size: 101009 bytes
+(epstopdf)             Output file: <chapter_7/figures/fig_4_1-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2014-09-12 08:11:46
+(epstopdf)                    size: 36109 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapter_7/figures/fig_4_1-
+eps-converted-to.pdf chapter_7/figures/fig_4_1.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapter_7/figures/fig_4_1-eps-converted-to.pdf, id=1944, 614.295pt x 794.97pt>
+File: chapter_7/figures/fig_4_1-eps-converted-to.pdf Graphic file (type pdf)
+<use chapter_7/figures/fig_4_1-eps-converted-to.pdf>
+Package pdftex.def Info: chapter_7/figures/fig_4_1-eps-converted-to.pdf used on
+ input line 65.
+(pdftex.def)             Requested size: 241.8518pt x 312.9803pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[98 <./chapter_7/figures/fig_4_1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <chapter_7/figures/fig_3.eps>
+(epstopdf)                    date: 2014-08-19 12:45:34
+(epstopdf)                    size: 33617 bytes
+(epstopdf)             Output file: <chapter_7/figures/fig_3-eps-converted-to.p
+df>
+(epstopdf)                    date: 2014-08-19 12:45:58
+(epstopdf)                    size: 14515 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapter_7/figures/fig_3-ep
+s-converted-to.pdf chapter_7/figures/fig_3.eps>
+(epstopdf)             \includegraphics on input line 76.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapter_7/figures/fig_3-eps-converted-to.pdf, id=1964, 614.295pt x 794.97pt>
+File: chapter_7/figures/fig_3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use chapter_7/figures/fig_3-eps-converted-to.pdf>
+Package pdftex.def Info: chapter_7/figures/fig_3-eps-converted-to.pdf used on i
+nput line 76.
+(pdftex.def)             Requested size: 219.86188pt x 284.52756pt.
+
+<chapter_7/figures/fig_4.png, id=1968, 794.97pt x 614.295pt>
+File: chapter_7/figures/fig_4.png Graphic file (type png)
+
+<use chapter_7/figures/fig_4.png>
+Package pdftex.def Info: chapter_7/figures/fig_4.png used on input line 84.
+(pdftex.def)             Requested size: 331.38629pt x 256.0748pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<chapter_7/figures/fig_5.png, id=1970, 903.375pt x 588.69937pt>
+File: chapter_7/figures/fig_5.png Graphic file (type png)
+
+<use chapter_7/figures/fig_5.png>
+Package pdftex.def Info: chapter_7/figures/fig_5.png used on input line 91.
+(pdftex.def)             Requested size: 480.27519pt x 312.9803pt.
+
+Overfull \hbox (134.97255pt too wide) in paragraph at lines 91--92
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--97
+
+ []
+
+[99 <./chapter_7/figures/fig_3-eps-converted-to.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 1859) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[100 <./chapter_7/figures/fig_4.png>]
+Package epstopdf Info: Source file: <chapter_7/figures/fig_6.eps>
+(epstopdf)                    date: 2014-08-19 12:44:13
+(epstopdf)                    size: 41417 bytes
+(epstopdf)             Output file: <chapter_7/figures/fig_6-eps-converted-to.p
+df>
+(epstopdf)                    date: 2014-08-19 12:45:59
+(epstopdf)                    size: 19152 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapter_7/figures/fig_6-ep
+s-converted-to.pdf chapter_7/figures/fig_6.eps>
+(epstopdf)             \includegraphics on input line 100.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapter_7/figures/fig_6-eps-converted-to.pdf, id=1994, 614.295pt x 794.97pt>
+File: chapter_7/figures/fig_6-eps-converted-to.pdf Graphic file (type pdf)
+
+<use chapter_7/figures/fig_6-eps-converted-to.pdf>
+Package pdftex.def Info: chapter_7/figures/fig_6-eps-converted-to.pdf used on i
+nput line 100.
+(pdftex.def)             Requested size: 219.86188pt x 284.52756pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 2189) has occurred while \output is active []
+
+ [101 <./chapter_7/figures/fig_5.png>]
+Package epstopdf Info: Source file: <chapter_7/figures/fig_7.eps>
+(epstopdf)                    date: 2014-06-17 18:00:59
+(epstopdf)                    size: 28540 bytes
+(epstopdf)             Output file: <chapter_7/figures/fig_7-eps-converted-to.p
+df>
+(epstopdf)                    date: 2014-06-17 18:01:26
+(epstopdf)                    size: 14035 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapter_7/figures/fig_7-ep
+s-converted-to.pdf chapter_7/figures/fig_7.eps>
+(epstopdf)             \includegraphics on input line 110.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapter_7/figures/fig_7-eps-converted-to.pdf, id=2008, 614.295pt x 794.97pt>
+File: chapter_7/figures/fig_7-eps-converted-to.pdf Graphic file (type pdf)
+
+<use chapter_7/figures/fig_7-eps-converted-to.pdf>
+Package pdftex.def Info: chapter_7/figures/fig_7-eps-converted-to.pdf used on i
+nput line 110.
+(pdftex.def)             Requested size: 241.8518pt x 312.9803pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[102 <./chapter_7/figures/fig_6-eps-converted-to.pdf>] [103 <./chapter_7/figure
+s/fig_7-eps-converted-to.pdf>])
+
+Package Fancyhdr Warning: \headheight is too small (22.76219pt): 
+ Make it at least 22.80959pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[104]
+\openout2 = `chapter_8/Chapter8.aux'.
+
+ (./chapter_8/Chapter8.tex
+Chapter 8.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+ [105
+
+
+
+]
+<chapter_8/figures/sphere_system.png, id=2069, 1673.25125pt x 1589.94pt>
+File: chapter_8/figures/sphere_system.png Graphic file (type png)
+
+<use chapter_8/figures/sphere_system.png>
+Package pdftex.def Info: chapter_8/figures/sphere_system.png used on input line
+ 15.
+(pdftex.def)             Requested size: 170.71652pt x 162.20569pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[106] [107 <./chapter_8/figures/sphere_system.png>]
+Package epstopdf Info: Source file: <chapter_8/figures/2_energy_vs_sec_coex.eps
+>
+(epstopdf)                    date: 2014-08-19 19:10:19
+(epstopdf)                    size: 1744411 bytes
+(epstopdf)             Output file: <chapter_8/figures/2_energy_vs_sec_coex-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2014-08-19 19:10:51
+(epstopdf)                    size: 2241459 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapter_8/figures/2_energy
+_vs_sec_coex-eps-converted-to.pdf chapter_8/figures/2_energy_vs_sec_coex.eps>
+(epstopdf)             \includegraphics on input line 56.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapter_8/figures/2_energy_vs_sec_coex-eps-converted-to.pdf, id=2092, 614.295p
+t x 794.97pt>
+File: chapter_8/figures/2_energy_vs_sec_coex-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use chapter_8/figures/2_energy_vs_sec_coex-eps-converted-to.pdf>
+Package pdftex.def Info: chapter_8/figures/2_energy_vs_sec_coex-eps-converted-t
+o.pdf used on input line 56.
+(pdftex.def)             Requested size: 227.62204pt x 294.57098pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--67
+
+ []
+
+[108]
+Underfull \vbox (badness 4595) has occurred while \output is active []
+
+ [109 <./chapter_8/figures/2_energy_vs_sec_coex-eps-converted-to.pdf>]
+<chapter_8/figures/decay_rates.png, id=2116, 744.7825pt x 596.72937pt>
+File: chapter_8/figures/decay_rates.png Graphic file (type png)
+
+<use chapter_8/figures/decay_rates.png>
+Package pdftex.def Info: chapter_8/figures/decay_rates.png used on input line 8
+6.
+(pdftex.def)             Requested size: 355.65944pt x 284.96999pt.
+
+Overfull \hbox (10.3568pt too wide) in paragraph at lines 86--87
+ [][] 
+ []
+
+[110 <./chapter_8/figures/decay_rates.png>]
+<chapter_8/figures/RDF.png, id=2128, 756.32562pt x 622.82687pt>
+File: chapter_8/figures/RDF.png Graphic file (type png)
+
+<use chapter_8/figures/RDF.png>
+Package pdftex.def Info: chapter_8/figures/RDF.png used on input line 115.
+(pdftex.def)             Requested size: 355.65944pt x 292.88072pt.
+
+Overfull \hbox (10.3568pt too wide) in paragraph at lines 115--116
+ [][] 
+ []
+
+[111] [112 <./chapter_8/figures/RDF.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 127--133
+
+ []
+
+) [113]
+\openout2 = `chapter_9/Chapter9.aux'.
+
+ (./chapter_9/Chapter9.tex [114
+
+
+
+]
+Chapter 9.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+
+ []
+
+[115]) [116] [117]
+\openout2 = `appendices/Appendix1.aux'.
+
+ (./appendices/Appendix1.tex [118
+
+
+
+]
+Appendix A.
+
+Overfull \hbox (5.58208pt too wide) in paragraph at lines 3--3
+[]\T1/cmr/bx/n/14.4 Evaluation of the Ima-gin-ary part of the Green
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Im' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\left' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\left' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\right' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\right' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Overfull \hbox (12.4271pt too wide) in alignment at lines 14--16
+ [][][] []
+ []
+
+
+Underfull \vbox (badness 3942) has occurred while \output is active []
+
+ [119]
+[120] <appendices/axis.png, id=2197, 1629.08624pt x 1300.86pt>
+File: appendices/axis.png Graphic file (type png)
+
+<use appendices/axis.png>
+Package pdftex.def Info: appendices/axis.png used on input line 66.
+(pdftex.def)             Requested size: 170.71652pt x 136.3065pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[121] [122 <./appendices/axis.png>]) [123]
+\openout2 = `appendices/Appendix2.aux'.
+
+ (./appendices/Appendix2.tex [124
+
+
+
+]
+Appendix B.
+[125]) [126]
+\openout2 = `appendices/Appendix3.aux'.
+
+ (./appendices/Appendix3.tex
+Appendix C.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+<appendices/oblate.png, id=2245, 1066.48438pt x 837.62938pt>
+File: appendices/oblate.png Graphic file (type png)
+
+<use appendices/oblate.png>
+Package pdftex.def Info: appendices/oblate.png used on input line 8.
+(pdftex.def)             Requested size: 199.16928pt x 156.42883pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[127
+
+
+
+] [128 <./appendices/oblate.png>]) [129]
+\openout2 = `appendices/Appendix4.aux'.
+
+ (./appendices/Appendix4.tex
+[130
+
+
+
+]
+Appendix D.
+
+Overfull \hbox (13.19902pt too wide) in alignment at lines 7--22
+ [][][] []
+ []
+
+
+Overfull \hbox (19.00546pt too wide) detected at line 68
+[] \OT1/cmr/m/n/10 = [] [] [] \OML/cmm/m/it/10 ;
+ []
+
+[131]
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+
+ []
+
+<appendices/disks_app4.png, id=2279, 1445.4pt x 903.375pt>
+File: appendices/disks_app4.png Graphic file (type png)
+
+<use appendices/disks_app4.png>
+Package pdftex.def Info: appendices/disks_app4.png used on input line 93.
+(pdftex.def)             Requested size: 199.16928pt x 124.4729pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[132] [133 <./appendices/disks_app4.png>]
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 149.
+ [134pdfTeX warning (ext4): destination with the same identifier (name{equation
+.D.2.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.211 \end{eqnarray}
+                    ] [135]pdfTeX warning (ext4): destination with the same ide
+ntifier (name{equation.D.2.22}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.274 \begin{equation}
+                       [136pdfTeX warning (ext4): destination with the same ide
+ntifier (name{equation.D.2.22}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.342 \]
+        ]) [137]
+\openout2 = `appendices/Appendix5.aux'.
+
+ (./appendices/Appendix5.tex [138
+
+
+
+]
+Appendix E.
+<appendices/sphere_scheme.png, id=2339, 870.75313pt x 742.775pt>
+File: appendices/sphere_scheme.png Graphic file (type png)
+
+<use appendices/sphere_scheme.png>
+Package pdftex.def Info: appendices/sphere_scheme.png used on input line 19.
+(pdftex.def)             Requested size: 227.62204pt x 194.15965pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[139] [140 <./appendices/sphere_scheme.png>] [141pdfTeX warning (ext4): destina
+tion with the same identifier (name{equation.E.0.6}) has been already used, dup
+licate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.79  $
+       \left(\rho\geq R\right)\ if\ \rho-r\leq R\rightarrow S\left(\rho,r\ri...
+]
+Package epstopdf Info: Source file: <appendices/uncorrelated.eps>
+(epstopdf)                    date: 2014-09-13 19:07:43
+(epstopdf)                    size: 14237 bytes
+(epstopdf)             Output file: <appendices/uncorrelated-eps-converted-to.p
+df>
+(epstopdf)                    date: 2014-09-13 19:08:30
+(epstopdf)                    size: 7610 bytes
+(epstopdf)             Command: <repstopdf --outfile=appendices/uncorrelated-ep
+s-converted-to.pdf appendices/uncorrelated.eps>
+(epstopdf)             \includegraphics on input line 118.
+Package epstopdf Info: Output file is already uptodate.
+
+<appendices/uncorrelated-eps-converted-to.pdf, id=2363, 614.295pt x 794.97pt>
+File: appendices/uncorrelated-eps-converted-to.pdf Graphic file (type pdf)
+
+<use appendices/uncorrelated-eps-converted-to.pdf>
+Package pdftex.def Info: appendices/uncorrelated-eps-converted-to.pdf used on i
+nput line 118.
+(pdftex.def)             Requested size: 199.16928pt x 257.74355pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [142] [143 <./appendices/uncorrelated-eps-converted-to.pdf>]
+\openout2 = `appendices/Conclusiones_generales.aux'.
+
+
+(./appendices/Conclusiones_generales.tex [144
+
+
+
+]
+Appendix F.
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--12
+
+ []
+
+[145]) [146] [147]
+\openout2 = `appendices/List_of_publications.aux'.
+
+ (./appendices/List_of_publications.tex [148
+
+
+
+]
+Appendix G.
+
+Overfull \hbox (0.49075pt too wide) in paragraph at lines 4--5
+[]\T1/cmr/m/it/10 Mimicking elec-tro-mag-net-ic-ally in-duced trans-par-ency in
+ the magneto-optical
+ []
+
+[149]) [150] [151
+
+] [152
+
+]
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/Thesis.bbl [153
+
+] [154]
+[155] [156] [157] [158] [159] [160] [161] [162] [163] [164] [165] [166]
+[167] [168])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
+ [169]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
+
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/Thesis.aux
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/chapter_1/Chapter1.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/chapter_2/Chapter2.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/part_1/part1.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/chapter_3/Chapter3.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/chapter_4/Chapter4.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/chapter_5/Chapter5.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/part_2/part2.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/chapter_6/Chapter6.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/chapter_7/Chapter7.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/chapter_8/Chapter8.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/chapter_9/Chapter9.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/appendices/Appendix1.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/appendices/Appendix2.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/appendices/Appendix3.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/appendices/Appendix4.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/appendices/Appendix5.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/appendices/Conclusiones_gene
+rales.aux)
+(/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/appendices/List_of_publicati
+ons.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
+ ) 
+Here is how much of TeX's memory you used:
+ 12239 strings out of 493117
+ 198934 string characters out of 6135433
+ 299795 words of memory out of 5000000
+ 14465 multiletter control sequences out of 15000+600000
+ 48458 words of font info for 137 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 43i,21n,45p,2191b,1585s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2014/te
+xmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2014/texmf-
+dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2014/texmf-di
+st/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2014/texmf-dist
+/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2014/texmf-dist/f
+onts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2014/texmf-dist/fon
+ts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2014/texmf-dist/fonts
+/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
+e1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
+/public/cm-super/sfss0900.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
+ublic/cm-super/sfss1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pub
+lic/cm-super/sfss1728.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publi
+c/cm-super/sfsx1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
+cm-super/sfsx2074.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm
+-super/sfsx2488.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-s
+uper/sfti0800.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-sup
+er/sfti1000.pfb>
+Output written on "/Users/nuno/Google Drive/Thesis/Thesis/.texpadtmp/Thesis.pdf
+" (187 pages, 40918323 bytes).
+PDF statistics:
+ 2892 PDF objects out of 2984 (max. 8388607)
+ 2509 compressed objects within 26 object streams
+ 756 named destinations out of 1000 (max. 500000)
+ 845 words of extra memory for PDF output out of 10000 (max. 10000000)
+
